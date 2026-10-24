@@ -33,7 +33,7 @@ Melvor Idle 2 Demo/
 
 Steam 里找目录：库 → 右键 Melvor Idle 2 → 管理 → 浏览本地文件。
 
-不需要管理员权限。放好后从 Steam 正常启动，界面就是中文。
+放好后从 Steam 正常启动，界面就是中文。
 
 ## 卸载
 
@@ -87,10 +87,10 @@ ZhPatch="*res://mod/zhpatch.gd"
 
 ```
 mod/          补丁本体，解压后整个文件夹进游戏目录
-├─ override.cfg     唯一必须放在游戏根目录的文件
 ├─ zhpatch.gd       补丁脚本
 ├─ zh_CN.po         翻译表
 └─ README.txt       安装说明
+override.cfg  必须放在游戏根目录（与 mod/ 同级），Godot 从固定位置读它
 tools/        翻译质检脚本、术语表、批量修正表
 build.ps1     把 mod/ 组装成 dist/Melvor2Zh-zh-CN.zip
 ```
@@ -111,6 +111,19 @@ mod/zhpatch.gd
 mod/zh_CN.po
 mod/README.txt
 ```
+
+## 关于开发
+
+补丁的代码与译文由 **DeepSeek-V4.1-Flash** 辅助完成，❤️🐳
+
+它在这份仓库里做的事：
+
+- 逆向游戏的语言加载链路，实测出 `override.cfg` + autoload 这条零侵入路径——包括 `res://` 能否加载子目录、会不会挤掉游戏自带的 3 个 autoload、切换后能否回落
+- 编写 `mod/zhpatch.gd`，并在原版 dll 上反复实跑，靠自检日志和截图逐项核对，而不是只凭推测
+- 8180 条文本的初译与术语定名，`tools/fixes/` 里 48 份批量修正表的整理
+- `tools/` 下的质检脚本，以及 `build.ps1` 的打包与编码处理（PowerShell 5.1 那个 BOM 坑就是它踩的）
+
+译文和代码都经人工审核、实机验证后才发布，功能取舍与验收由作者负责。
 
 ## 许可
 
