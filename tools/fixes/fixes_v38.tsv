@@ -1,0 +1,9 @@
+# v38：语序/句式修正
+#
+# 「你的潜行与目标的感知的对比」是连续三个"的"，英文 your X compared to the target's Y 直译的结果。
+# 「进行一次捕获尝试」「可进行维护」是 perform an attempt / be maintained 的直译，中文不必带"进行"。
+
+Your Pest Protection / Product's Pest Attraction.\n- Reduces final product quantity if not maintained.\n- This can be maintained while the product is growing.	你的害虫防护 / 产物的害虫吸引。\n- 若不维持会降低最终产物数量。\n- 产物成长期间可维护。
+Your Disease Protection / Product's Disease Attraction.\n- Reduces final product quantity if not maintained.\n- This can be maintained while the product is growing.	你的疾病防护 / 产物的疾病吸引。\n- 若不维持会降低最终产物数量。\n- 产物成长期间可维护。
+Perform a catch attempt. If you catch the Priority Fish, continue as normal.\nIf not, immediately perform another standard catch attempt.\nSpecial Item rolls only occur once during this whole process.	尝试捕获一次。若捕到优先鱼，则照常继续。\n若没有，立刻再按标准流程尝试一次。\n特殊物品抽取在整个过程中只发生一次。
+Your chance to successfully steal depends on your Stealth compared to the target's Perception.	偷窃能否成功，取决于你的潜行与目标感知的对比。

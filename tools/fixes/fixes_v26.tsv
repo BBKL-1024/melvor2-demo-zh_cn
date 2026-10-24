@@ -1,0 +1,21 @@
+﻿# v26：vs 全量中文化
+#
+# v25 只改了战斗风格的六条，元素对还是英文 vs。而且这两条不一致：
+#   Water vs Earth → 水克土     ← 并且译错了：这一对是「玩家水 打 敌人土」，土克水
+#   Water vs Fire  → 水克火
+# "X vs Y" 只表示「玩家用 X、敌人用 Y」，谁克谁取决于数据里的 IsPositiveForPlayer，
+# 所以统一译成「X 对 Y」，不替它下结论。
+#
+# 顺带把模板里的「对战」和那条半角括号一起收干净。
+
+Air vs Earth	风 对 土
+Air vs Fire	风 对 火
+Earth vs Air	土 对 风
+Earth vs Water	土 对 水
+Fire vs Air	火 对 风
+Fire vs Water	火 对 水
+Water vs Earth	水 对 土
+Water vs Fire	水 对 火
+
+[img height=1em][/img][b]Element[/b] vs [img height=1em][/img][b]Element[/b]	[img height=1em][/img][b]元素[/b] 对 [img height=1em][/img][b]元素[/b]
+Equipment Stat difference (vs Equipped Item)	装备数值差异（对比已装备物品）

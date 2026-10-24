@@ -1,0 +1,18 @@
+﻿# 第一批确认错误（2026-10-21）
+# 格式：2 列 msgid<TAB>新译文；3 列 msgid片段<TAB>旧<TAB>新
+#
+# --- 多义词选错义 ---
+# String 是亚麻(Flax)制作的制作物，同组配方产出 Bowstring(弓弦)，故 String=绳子
+String	绳子
+String & Fibres	绳子与纤维
+# Logs 在生火里是原木，其余条目早已是「原木」，只有这一条落成了「日志」
+Logs	原木
+#
+# --- 术语不一致（统一到占多数的译法）---
+Slayer Task	杀戮任务
+Adept Wizard Robe	精通巫师长袍
+Observation	观测
+Meteorite Rod	陨铁鱼竿
+Refined Meteorite Rod	精炼陨铁鱼竿
+# 鱼竿/钓竿混用：统一为「鱼竿」
+Fishing Rod	钓竿	鱼竿

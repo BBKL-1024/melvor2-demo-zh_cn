@@ -1,0 +1,13 @@
+﻿# Resistance -> 减伤
+#
+# 「抗性」在中文 RPG 里确实常见，但它容易被读成"抵抗/闪避的概率"，而源码里它是
+# 直接乘在伤害上的比例（CharacterComponent.ModifyAttackDamage: num *= 1 - resistance）。
+# 面板上又正好和「命中率 60%」「暴击几率」这些真概率并排，改成「减伤」不留歧义。
+#
+# 占位符本身不用改：{0.ResistanceName} 取自 msgid "Normal Resistance"，
+# {0.ResistanceNameShort} 取自 "Normal"。
+
+Normal Resistance	普通减伤
+<<<Normal Resistance>>>	<<<普通减伤>>>
+Resistances	减伤
+{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} resistance	{Value:0%} {Value:cond:<0?降低|>=0?提高} 减伤

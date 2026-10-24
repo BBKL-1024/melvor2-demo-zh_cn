@@ -1,0 +1,14 @@
+﻿# v36：派生词与同族名的对应修正
+#
+# 扫描四条派生关系后发现的问题：
+#   种子 ↔ 植物：74 条种子条目里 72 条对得上，Mantalyme 两条把「塔」写成「陀」
+#   原木 ↔ 树：13 组全部一致
+#   怪物 ↔ 掉落物：Scabjaw Beast 系列 7 条里 6 条叫「痂颚野兽」，唯独角叫「痂颚兽角」
+#   单复数：Reinforced Butterfly Kit 单数那条既换了词（加固/强化）又换了中心词
+#           （捕蝶套装/蝴蝶套件），和同批另外六条对不上
+
+Mantalyme Herb Seed	曼塔莱姆草种子
+Mantalyme Herb Seeds	曼塔莱姆草种子
+Baby Wurm	蠕虫幼崽
+Scabjaw Beast Horn	痂颚野兽角
+Reinforced Butterfly Kit	强化蝴蝶套件

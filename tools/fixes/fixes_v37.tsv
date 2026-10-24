@@ -1,0 +1,19 @@
+﻿# v37：入口按钮改口语化 + 钓鱼点地名润色
+#
+# 1 面板左上角已经写着「讨伐任务」了，右上角那个按钮再叫「讨伐委托」就是同义重复。
+#   按钮的作用是"想换活/接别的活就点这里"，直接写「更多任务」。
+#   （窗口标题 `Slayer Masters & Tasks` 不动，那里确实要交代"这些发单的人 + 他们的任务"。）
+#
+# 2 钓鱼点是地名，得像个地名：
+#    Sea Edge=海缘        两字像形容词，不是地名
+#    Shallow Shores=浅滩海岸   shallow 就是"浅"，和"海岸"重复
+#    Shimmering Depths=微光深处  "深处"不是地名后缀
+#    Midnight Cove=午夜海湾 / Windy Bay=多风海湾 → 统一成「XX湾」，与 Shark Cove=鲨鱼湾 对齐
+
+Slayer Masters	更多任务
+
+Sea Edge	海之涯
+Shallow Shores	浅水滩
+Shimmering Depths	微光深渊
+Midnight Cove	午夜湾
+Windy Bay	多风湾

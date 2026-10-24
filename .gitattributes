@@ -1,0 +1,20 @@
+# 默认交给 git 判断，下面逐类覆盖
+* text=auto
+
+# PowerShell 脚本必须保持 CRLF + BOM，否则 PowerShell 5.1 解析中文注释会出错
+*.ps1   text eol=crlf
+
+# 以下文件必须保持 LF：gettext 解析、Godot 配置读取都按原样处理换行
+*.po    text eol=lf
+*.gd    text eol=lf
+*.cfg   text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.py    text eol=lf
+*.tsv   text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# 二进制
+*.zip   binary
+*.png   binary

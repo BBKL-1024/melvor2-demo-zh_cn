@@ -1,0 +1,39 @@
+﻿# 战斗面板术语统一（v20）
+#
+# 1) Power 就是"攻击力"：游戏自己的说明写着 "Power is primarily obtained from
+#    weapons"，且与 Protection 对比决定减伤。之前区块标题译「强度」、说明文本却译
+#    「攻击」，同一概念两种说法。
+# 2) Protection 统一「防护」：之前「保护值 / 防护 / 防护等级」三种并存，而且
+#    「保护」与动词义的 Protect（保护物品、保护线圈）撞车。不用「防御」是因为游戏
+#    已有 Defence 技能叫「防御」。
+# 3) Min Hit 与 Max Hit 对称：Max Hit=最大伤害，Min Hit 却成「最小命中」。
+# 4) Accuracy / Evasion Rating 是可比数值（面板上 9,184），不是百分比，叫「率」
+#    会被误读；统一「评级」，与装备属性条目一致。
+
+# ---- Power -> 攻击力
+Power	攻击力
+Power (	强度（	攻击力（
+Power Values	强度数值	攻击力数值
+Power Ratings	强度评级	攻击力评级
+Power Rating	强度评级	攻击力评级
+DisplayName} Power:	} 强度：	} 攻击力：
+Normal Damage Power	普通伤害强度	普通伤害攻击力
+Power & Protection	攻击与防护	攻击力与防护
+Power & Protection Ratings	攻击力与防护评级
+
+# ---- Protection -> 防护
+Protection (	保护（	防护（
+Protection Values	保护值	防护值
+Protection Ratings	防护等级	防护评级
+
+# ---- 抗性计算提示框里的两个标签
+ResistanceNameShort	[u]保护[/u]	[u]防护[/u]
+ResistanceNameShort	[u]强度[/u]	[u]攻击力[/u]
+
+# ---- Min Hit 与 Max Hit 对称
+Min Hit	最小命中	最小伤害
+
+# ---- Accuracy / Evasion Rating：数值，不是百分比
+Accuracy Rating	命中率	命中评级
+Evasion Rating	闪避率	闪避评级
+Chance to Hit	命中率

@@ -1,0 +1,26 @@
+﻿# 相邻同音修订（v22）
+#
+# 判据只有一条：同一个连续汉字段里，相邻两字读音完全相同（含声调）。
+# 叠字（渐渐/常常）不算问题，已排除。
+#
+# Plaguewing = 瘟疫翼 → 瘟(wēn) 疫(yì) 翼(yì)，"疫翼"完全同音，读起来像口吃。
+# 改成「瘟翼」还有个额外好处：游戏里同族的名字都是「X翼」两字（灰翼血鹰、翠翼绿尾、
+# 墓翼蝶王、夜翼），「瘟翼」正好对齐这个构词。
+#
+# 没动的几个（都是自然词或标准术语，不是生造组合，撞音不影响阅读）：
+#   Molten Glass=熔融玻璃   「熔融」是 molten 的标准译名
+#   On Eating Food=进食时   「进食」是常用词，shí shí 读起来并不别扭
+#   星座提示里的「秘密」     普通句子里的标准词
+
+Plaguewing	瘟翼
+Plaguewing Vulture	瘟翼秃鹫
+Plaguewing Heart	瘟翼之心
+Plaguewing Hearts	瘟翼之心
+Sandstalker Hyena	沙潜鬣狗
+Feather Rain	羽毛雨
+Critical Hit Chance	暴击率
+{Value:+0.##%;-#.##%} critical hit chance	{Value:+0.##%;-#.##%} 暴击率
+Animals Not Fed	未喂食的动物
+Invalid data for description	说明数据无效
+Secret Items in this Area	此区域的隐藏物品
+Combines the best bonues from the previous Tier	结合上一阶的最优加成

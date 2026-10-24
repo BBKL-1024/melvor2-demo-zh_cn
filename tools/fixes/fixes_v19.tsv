@@ -1,0 +1,42 @@
+﻿# v19 -- 生命值两字化 + 攻击风格两处换词 + Block 共享译文纠错
+#
+# 1) Hitpoints -> 生命
+#    技能栏里其余七项都是两字（近战/力量/防御/远程/魔法/悬赏/祈祷），只有「生命值」三字。
+#    中文里「生命」是属性名、「生命值」是那个数值，分工本来就有：
+#    面板标签用「生命」，正文「恢复 500 点生命值」保持不变。
+#    精通殿堂的三个等级名跟着改，否则「生命」与「生命值入门」会并存。
+Hitpoints	生命
+Hitpoints Initiate	生命入门
+Hitpoints Rank 2	生命等级 2
+Hitpoints Rank 3	生命等级 3
+#
+# 2) Block -> 招架 / Powerful -> 蓄力
+#    数据包里的九种风格是九个独立伤害类型（各有自己的 XxxAttackBonus /
+#    XxxDefenceBonus，防御面板那九项就是它们），所以换名字必须连派生属性一起换。
+#    Block 的 Bonuses 是 Defence 战斗等级 +3，本身是防御架势，用「招架」这种主动动作词。
+#    Powerful 是远程风格，用「蓄力」（拉满弓弦、更慢更重）比形容词「强力」更像动作。
+Block	招架
+Block Attack Bonus	招架攻击加成
+Block Defence Bonus	招架防御加成
+Powerful	蓄力
+Powerful Attack Bonus	蓄力攻击加成
+Powerful Defence Bonus	蓄力防御加成
+#
+# 3) 共享译文的连带错误：Block 同时是「悬赏任务封锁」的动词。
+#    msgid 没有 msgctxt，一个 Block 只能有一种译法，所以这几条被「格挡」污染了。
+#    统一到「封锁」（与 Task Blocking=任务封锁 / Unblock=解除封锁 / Blockade=封锁 一致）。
+Cost to Block:	封锁花费：
+Slayer Coins Spent Blocking Tasks	用于封锁任务的悬赏币消耗
+Spend {Current:N0} / {Max:N0} {BlockCurrencyName} blocking Slayer Tasks from {MasterName}	花费 {Current:N0} / {Max:N0} {BlockCurrencyName} 封锁 {MasterName} 的悬赏任务
+{Value:+0.##%;-#.##%} cost to block Slayer Tasks	{Value:+0.##%;-#.##%} 封锁悬赏任务的费用
+#
+# 4) Powerful Strength 是战斗祈祷（Icon: Assets/Skills/Prayer/PowerfulStrength.png，
+#    FitsInSlot: CombatPrayer，效果是近战 PercentMaxHit +5%），
+#    「强力力量」两个同义词叠在一起，改成「蛮力」。
+Powerful Strength	蛮力
+#
+# 5) 钥匙两半 (a)/(b) 无先后之分，用甲/乙（中文里纯粹的配对标签，不表顺序）
+Ranchers Chest Key Half (a)	牧场主宝箱钥匙半把（甲）
+Ranchers Chest Key Half (b)	牧场主宝箱钥匙半把（乙）
+Thug Chest Key Half (a)	暴徒宝箱钥匙半把（甲）
+Thug Chest Key Half (b)	暴徒宝箱钥匙半把（乙）

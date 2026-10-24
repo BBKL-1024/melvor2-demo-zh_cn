@@ -1,0 +1,25 @@
+﻿# 战斗术语核对修订（v24）
+#
+# 依据 decomp/full 的结算链路，详见根目录「战斗机制与译名核对.md」。
+#
+# 1  Stab=刺击（九个姿态之一），Stab Evasion 却译「穿刺闪避」，同屏并列两种说法
+# 2  Evasion ratings 小写 r 那条在 v20 漏改（当时 scope 写的是 "Evasion Rating"），
+#    值 6,441 是评分不是百分比
+# 3  ArmourBroken 是「一击打进 >= 护甲值 → 护甲此后完全失效」，不是耐久磨损
+# 4  同一个 stat，面板叫「光照」，卡片标题却叫「光明」
+# 5  同一条属性：Attack Reflect=攻击反弹，Attack damage reflect=攻击伤害反射
+# 6  Attack Stance 与 Combat Stances 指同一批九个姿态
+# 7  Stance 全篇译「姿态」（见「你正在使用 X 姿态」），占位符却写「架势名称」
+# 8  Immune to X 缺介词，读作「免疫魔法」
+# 9  数值语境按约定用「生命值」，同组另一条已经是
+
+Stab Evasion	刺击闪避
+Evasion ratings	闪避评级
+Armour Broken!	护甲已击破！
+Light vs Darkness	光照与黑暗
+Attack Reflect	攻击伤害反弹
+{Value:+0.##%;-#.##%} Attack damage reflect	{Value:+0.##%;-#.##%} 攻击伤害反弹
+Combat Stances	攻击姿态
+<<<StanceName>>>	<<<姿态名称>>>
+Healing 10 hitpoints at the end of each turn.	每回合结束时治疗10点生命值。
+Immune to {LocalContext.CombatStyle.DisplayName}	对{LocalContext.CombatStyle.DisplayName}免疫

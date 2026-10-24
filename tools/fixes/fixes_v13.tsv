@@ -1,0 +1,35 @@
+﻿# v13 -- Hob Chief 定名 + 攻击风格字数对齐 + 四元素法术层级统一
+#
+# 1. Ghelbak：用户定名「盖尔巴克·哥布林酋长」。原文用逗号，中文人名 + 称号
+#    改用间隔号「·」，不再拆成两个短语。
+Ghelbak, the Hob Chief	盖尔巴克·哥布林酋长
+#
+# 2. 攻击风格：九个并列项里只有 Long-Range 是三个字，视觉上明显突兀。
+#    不能译「远程」——那个词已经被 Ranged（技能与装备族，26 条）占用。
+#    取「远射」：两字、语义准确、与「远程」字面可区分。
+Long-Range	远射
+Long-Range Attack Bonus	远射攻击加成
+Long-Range Defence Bonus	远射防御加成
+#
+# 3. 四元素法术三层：Strike(1) / Bolt(2) / Blast(3)。
+#    现状是四系各说各话——风/土/火 用「打击」而水系用「击术」，
+#    Bolt/Blast 水系也都多挂了「术」。统一成 元素 + 单字层级词，全部两字：
+#    击 -> 弹 -> 爆，层级递进可读，四系严格对齐。
+Air Strike	风击
+Water Strike	水击
+Earth Strike	土击
+Fire Strike	火击
+#
+#    Bolt 三层里 风弹/土弹/火弹 已经正确，只清掉水系的「术」。
+Water Bolt	水弹
+#
+#    Blast 同理。
+Water Blast	水爆
+#
+#    非四元素的 Blast 全族已经统一为「X爆」，只有 Thorn Blast 用了「冲击」。
+Thorn Blast	荆棘爆
+#
+# 4. Chief 定名为「酋长」后，把「首领」腾给 Ringleader 独占，
+#    避开同一个英文词在一处译首领、另一处译酋长。
+Hobgolbin Chief Cape	大哥布林酋长披风
+Hobgolbin Chief Capes	大哥布林酋长披风

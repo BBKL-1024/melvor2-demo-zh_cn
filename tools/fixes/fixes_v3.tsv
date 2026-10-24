@@ -1,0 +1,62 @@
+# 第三轮裁决：长尾小词，精确逐条
+Equip [b][img height=1.25em]{0.Icon.ResourcePath}[/img] {0.DisplayName}[/b] to the {1.Entity.DisplayName} Toolbelt	将 [b][img height=1.25em]{0.Icon.ResourcePath}[/img] {0.DisplayName}[/b] 装备到 {1.Entity.DisplayName} 工具栏
+Find [b]{Current:N0} / {Max:N0}[/b] unique Collectables in Hunting	在狩猎中找到 [b]{Current:N0} / {Max:N0}[/b] 个独特收集品
+Toolbelt	工具栏
+Toolbelt Items Equipped	已装备工具栏物品
+Toolbelt Items Used	已使用工具栏物品
+[color={2}][Observation] {0} {1}[/color]	[color={2}][观测] {0} {1}[/color]
+<Artist Name>	<画师名称>
+Cost to Block:	格挡花费：
+Light Lanterns	点亮提灯
+Start Thieving	开始偷窃
+Cycle Enclosures	切换围栏
+View Enemy Stats	查看敌人属性
+Farming Automation	农耕自动化
+Collectables found:	已发现收集品:
+View all Stats & Drops	查看全部属性与掉落
+Look after these stats.	关注这些属性。
+Most recent Animal stats	最近的动物属性
+Search Stats by Component	按组件搜索属性
+[img height=1.25em]res://Assets/Skills/AnimalHusbandry/happiness.png[/img] [b]Happiness[/b] is calculated as the average of these 3 substats:	[img height=1.25em]res://Assets/Skills/AnimalHusbandry/happiness.png[/img] [b]幸福度[/b]由这3项子属性的平均值计算:
+Take a look at the [color=#FFD16D]Equipment Stats[/color] tab to see how this is calculated in relation to your [color=#FFD16D]Stance[/color].	查看[color=#FFD16D]装备属性[/color]标签页，了解此属性与你[color=#FFD16D]架势[/color]的计算关系。
+Collectables can be obtained from certain [b]Rare Species[/b] of Animals as a rare drop. These collectables will be utilised in the [img height=1.25em]res://Assets/Icons/Construction.png[/img][b]Construction[/b] Skill.	收集品可作为稀有掉落从某些动物的[b]稀有物种[/b]处获得。这些收集品将用于 [img height=1.25em]res://Assets/Icons/Construction.png[/img][b]建造[/b] 技能。
+Happy Animals, happy farm.\n[ul]Calculated based on the three other stats.\n[b]Skill XP[/b] & [b]Produce[/b] is multiplied by the Animal's [b]Happiness[/b].\nCannot go below [color=orange]0%[/color].[/ul]\n\n[i]Happiness = Hunger * 0.3 + Comfort * 0.3 + Satisfaction * 0.4[/i]\nNote: [b]Comfort[/b] is [color=green]1[/color] if >= [color=orange]75%[/color]	快乐的动物，快乐的农场。\n[ul]根据其他三项属性计算。\n[b]技能经验[/b]与[b]产出[/b]会乘以动物的[b]幸福度[/b]。\n不会低于 [color=orange]0%[/color]。[/ul]\n\n[i]幸福度 = 饥饿度 * 0.3 + 舒适度 * 0.3 + 满意度 * 0.4[/i]\n注意: 若 [b]舒适度[/b] >= [color=orange]75%[/color]，则视为 [color=green]1[/color]
+Ameria	阿梅里亚
+Apprentice Runecrafter	学徒符文制作师
+Ceedyr	西迪尔
+Deedree	迪德里
+Drain	吸取
+Fortified String	加固绳子
+Hobgolbin	大哥布林
+Hobgolbin Camp	大哥布林营地
+Iridan	伊里丹
+Journeyman Runecrafter	熟练符文制作师
+Maximum Ward	最大结界
+Reinforced String	强化绳子
+Runecrafter	符文制作师
+Stormhorn Wildebeast	风暴角荒野兽
+Super Ward Breaker Potion	超级破界药水
+Super Ward Breaker Potion P1-A	超级破界药水 P1-A
+Super Ward Breaker Potion P2-A	超级破界药水 P2-A
+Super Ward Breaker Potion P2-B	超级破界药水 P2-B
+Thieving Legs	偷窃腿甲
+Thornback Camo Legs	棘背伪装腿甲
+Ward Breaker Potion	破界药水
+Ward Breaker Potion P1-A	破界药水 P1-A
+Ward Breaker Potion P2-B	破界药水 P2-B
+Ward Breaker Potion P2A	破界药水 P2A
+Water Crush	水碾
+Wind Barrier	风之屏障
+Woodcutting Legs	伐木腿甲
+Plaguewing Heart	瘟疫翼之心
+Potato Seed	土豆种子
+Raw Glowfin	生荧光鳍鱼
+Sharp Fletching Spike	锐利制箭尖刺
+Plaguewing Hearts	瘟疫翼之心
+Potato Seeds	土豆种子
+Raw Glowfins	生荧光鳍鱼
+Sharp Fletching Spikes	锐利制箭尖刺
+Provides protection from [b]Pests[/b] in [b]Farming[/b]. Equipped to the Farming Toolbelt.	为[b]农耕[/b]提供防[b]害虫[/b]保护。装备于农耕工具栏。
+Unlocks a Combat Toolbelt Slot.	解锁一个战斗工具栏槽位。
+Unlocks the [color=#FFD16D]Catalyst Toolbelt Slot[/color] in Herblore	在草药学中解锁[color=#FFD16D]触媒工具栏槽位[/color]
+{Value:+0.##%;-#.##%} double Ward damage chance	{Value:+0.##%;-#.##%} 结界伤害翻倍几率

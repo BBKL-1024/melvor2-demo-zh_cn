@@ -1,0 +1,201 @@
+﻿# Melvor2 中文术语表（人工裁决，优先级高于自动推导）
+# 格式：英文<TAB>标准中文<TAB>备注
+#       标准中文可以用 | 分隔多个「可接受写法」，例如  靴子|靴
+#       中文组合成词时会省略尾字（靴子→靴、骨头→骨、箭头→箭），
+#       所以一个词有 2–3 个可接受写法是正常的，不是错误。
+# 规则：登记后 po_audit.py 会检查所有含该词的短标签，只要用到任一可接受写法就放行。
+#
+# ---------- 第一轮：错译修正 ----------
+String	绳子|字符串	亚麻(Flax)制作的制作物；弓弦是 Bowstring，别混
+Bowstring	弓弦	与 String 区分
+Logs	原木	生火材料义；「日志」只用于 Completion Log 这类界面词
+Adept	精通	
+Observation	观测	单复数统一为观测
+Meteorite	陨铁	全 37 条已统一
+Fishing Rod	鱼竿	不用「钓竿」
+# ---------- 第二轮：术语统一（本轮已批量套用） ----------
+Wizard	巫师	组合名 82 条占多数；Mage 仍是「法师」，两者不要混
+Slayer	讨伐	技能名与组合词统一（讨伐任务/讨伐官/讨伐币/讨伐区域）；等级名用「学徒讨伐者」。原「悬赏」的"任务"二字与 Quest 混淆，故换词
+Max Hit	最大伤害	单次伤害上限；Min Hit 对称译「最小伤害」，这组跟命中无关。正文说明里也不要写「最高伤害」
+Power	攻击力|攻击	游戏说明写明 Power 主要来自武器、与 Protection 对比决定减伤，即「攻击力」；Power Values=攻击力数值，Power Rating=攻击力评级，Power & Protection=攻击力与防护
+Spirit	灵|意志|灵魂|精灵	Spirit Box/Lantern 用「灵魂」，风/火/土 Spirit 是元素精灵
+Amulet	护身符	不用「护符」
+Torso	上身	不用「上衣」
+Snare	绳套	不用「绊索」
+Stick	树枝|杖	Tracking Stick 统一为「追踪杖」
+Major	主要|重大	Major Nodes=主要节点，Major Update=重大更新
+# ---------- 第二轮：确认可接受的变体（登记后不再报错） ----------
+Leather	皮革|皮	材料名用「皮革」(麋鹿皮革)，装备名用「皮」(麋鹿皮甲)
+Boots	靴子|靴	单件用「靴子」，组合名用「靴」(巫师靴)
+Hard	坚硬|硬	材料前用「硬」(硬橡木/硬皮)
+Cow	奶牛|牛	单词用「奶牛」，组合名用「牛」
+Sheep	绵羊|羊	单词用「绵羊」，组合名用「羊」
+Bone	骨头|骨	单词用「骨头」，组合名用「骨」(骨箭)
+Stone	石头|石	单词用「石头」，组合名用「石」(石靴)
+arrow	箭头|箭	单词用「箭头」，组合名用「箭」
+Armour	护甲|甲	单词用「护甲」，装备名用「甲」(骨甲)
+Bait	鱼饵|诱饵|饵	钓鱼用「鱼饵」，狩猎诱捕用「诱饵」
+Burn	灼烧|燃烧|酸蚀	烧原木=燃烧，状态效果 Burn I–IV=灼烧
+Save	保存|存档|另存为	名词用「存档」（存档文件/云存档/上次存档/较早的存档）；按钮与动作动词用「保存」，Save As=另存为
+Trap	捕获|设陷|陷阱	Trap=陷阱，Chance to Trap=捕获几率
+Trapping	捕获|狩猎|设陷|陷阱|设陷阱	技能/属性名用「陷阱」（陷阱间隔/陷阱几率/岩石…）；Trapping Satchel=狩猎挎包
+Selected	已选择|已选|选择	两种都接受
+Active	激活中|生效中|进行中|正在进行|激活期间	依语境
+Applied	作用|施加|生效|已应用	堆肥用「施加」
+Pet	宠物|抚摸	名词=宠物，Wants Pets=想要抚摸
+Completion	完成度|完成	Completion=完成度，Completion Log=完成日志
+Level	等级|级	数值用「级」
+hit	伤害|击中|命中|打击|暴击	hit chance=命中率，Max Hit=最大伤害
+break	击碎|休息	采矿 Rock Break 全家用「击碎」（击碎条/击碎几率/每次击碎）；离线 break=休息
+Nothing	无|什么|没有|闲置	统计项用「闲置」
+Locked	已锁定|上锁	界面开关=已锁定，箱子=上锁的
+Stat	属性	
+Silk	蚕|蚕丝|蛛丝	Spider Silk=蛛丝
+Herbs	草药|草	单株药草常用「X草」
+Create	创建|制作	角色/文件夹=创建，物品=制作
+Eat	吃|进食|食用	
+Fishing	钓鱼|钓|鱼竿	Spot=钓点，Rod=鱼竿
+Bee	蜂|蜂王|蜂箱|蜜蜂	Bee=蜜蜂，Bee Box=蜂箱
+Stunned	已眩晕|眩晕	状态=已眩晕，统计项=眩晕时长
+# ---------- 待裁决（下一轮从这里开始） ----------
+# ---------- 第三轮：长尾小词裁决 ----------
+Crush	碾|碾压	风碾/土碾/火碾/水碾
+Ward	结界|破界	Ward=结界
+Toolbelt	工具栏	统一工具栏
+Legs	腿甲	19:3，多数派腿甲，护腿已改
+Stats	属性|数值	面板统一属性
+Cows	奶牛|牛	复数形式
+Pets	宠物|抚摸	动词义
+Creating	制作|正在制作|在制作	
+Spot	地点|弱点|钓点	Weak Spot=弱点，Fishing Spot=钓点
+Input	输入|投入	制作界面用「投入」
+Light	光照|光|点燃|点亮	动词义
+Regrows	重新生长|再生	
+Day	今天|时段|昼夜|每天|白天	依语境
+Placeholder	占位符|占位	
+ready	可|就绪|准备好	Ready to Harvest=可收获
+Preparing	准备中|准备	
+created	已创建|制作	
+Unlocked	已解锁|解锁	
+Waiting	等待中|等待	
+Stab	刺击|刺|穿刺	Stab Evasion=穿刺闪避
+Produce	产物|产出|农产品	
+Growing	成长|生长|生长中	
+Maintenance	维护|处理|防治	Pest Maintenance=害虫处理
+Night	夜晚|夜	
+Type	类型|方式	Sorting Type=排序方式
+Effect	效果|音效	Sound Effects=音效
+Rope	绳子|绳	Climbing Rope=攀爬绳
+Coal	煤炭|煤	
+Poison	中毒|毒	Poison Pod=毒荚
+Harvest	收获|丰收	Harvest Farm Chest=丰收农场宝箱
+Perch	河鲈|鲈鱼	Raw Perch=生鲈鱼
+Pike	狗鱼	Raw Pike=生狗鱼；梭子鱼是 barracuda
+Barrier	屏障|障壁	
+Fortune	幸运|运势	Thieving Fortune=运势
+Hide	隐藏|皮	Hide=隐藏，皮革义=皮
+Lifesteal	吸血|吸取	
+Shatter	碎|碎裂	独立于 Rock Break（击碎）的碎裂触发；Shatter I-IV=碎裂 I-IV，Mind Shatter=精神碎裂
+Yeet	丢弃|抛出|移除	Yeet Obstacle=移除障碍
+Double	双倍|双|翻倍	
+Poisonous	剧毒|有毒|毒	Poisonous Stem=有毒茎秆
+Tree	树|树木|柚木|红木|红杉	X Tree 用「X树」（柳树/枫树/橡树）；柚木/红木/红杉/紫杉本身即树名，不再加「树」；Cut Trees=砍树
+Ore	矿石|矿|矿脉	Ore Vein=矿脉
+Items	物品|材料	Items used for Cooking=材料
+Okay	确定|还好	
+Stance	姿态|架势	
+Enemy	敌人|击杀	Add All Enemy Kills=击杀数
+Unlocks	解锁项|解锁	
+Grants	获得|给予	
+Stopped	已停止|停止	
+Change	更改|更换	
+Priority	优先级|优先	
+Charge	冲锋|次数	Charges Left=剩余次数
+values	数值|值	Protection Values=保护值
+Miner	矿工|采煤工	Coal Miner=采煤工
+Bones	骨头|骨	
+Plant	种植|植物	Evil Plant=邪恶植物
+Farmer	农商|农夫|农贸	Farmers Market=农贸市场
+Guarded	被守护|守护	
+Honey	蜂蜜|蜜	
+Vale	维尔|谷	Lizard Vale=蜥蜴谷
+Thicket	密林|林	Misty Thicket=雾林
+Open	打开|开阔	Open Ocean=开阔海域
+Bank	库存|河岸	存放物品处，图标是箱子；Pebble Bank=卵石河岸（地名不受影响）
+Sting	螫刺|刺	Scorpion Sting=蝎刺
+Whip	鞭子|鞭击	Shambling Whips=鞭击
+Milk	牛奶|奶	
+Golden	黄金|金	
+Infectious	传染|感染	
+Runecrafter	符文制作师	技能名是符文制作
+skulls	头骨|骷髅	骷髅法杖/腐骷髅
+Spider	蜘蛛|蛛丝	Spider Silk=蛛丝
+Jadestone	玉髓	护身符与宝石统一
+Reroll	重抽	
+Give	给予|交付	任务步骤用交付
+Respawn	刷新|重生	
+Purchased	已购买|购买	
+fail	失败|未能	
+Grain	谷物|磨坊	Grain Mill=磨坊
+Corrupt	腐化|损坏	存档损坏
+Activated	已激活|激活	
+Add	添加|增加	
+Sick	患病|生病	
+Continue	继续|进入	
+Permanent	永久|常驻	
+Qty	数量|<qty>	
+Attack	近战|攻击|偷袭	技能实体名用「近战」（与 Ranged=远程 / Magic=魔法 并列）；普通动作与句式仍用「攻击」；Sneak Attack=偷袭
+Mallet	锤	木工锤具，但装备名用「锤」不用「木槌」：铜锤/石锤/钢锤/秘银锤
+Drake	幼龙|飞龙	
+Royal	皇家|蜂王	Royal Bee Ring=蜂王戒指
+Stinger	螫针|刺针	
+# ---------- 第三轮：怪物族名统一 ----------
+Golbin	哥布林	基础怪
+Hobgolbin	大哥布林	比 Golbin 高一级，靠「大」区分
+Hobforge	大哥布林	Hob- 是 Hobgolbin 缩写，与上一条一致
+Hunger	饥饿度	与 Comfort=舒适度 / Happiness=幸福度 统一「X度」格式
+Growing	生长|生长中	「生长中：- / -」与「生长中：{0}」保持同一标签
+Completed	已完成|完成	Times Completed=完成次数，completed in {X}=在 X 中完成的
+Food	食物|进食	On Eating Food=进食时
+Long-Range	远射	攻击风格九项之一，两字以对齐刺击/斩击；Ranged=远程 是技能与装备族，两者不得混用
+Strike	击|击术	元素法术一级用「X击术」（风击术/水击术/土击术/火击术）；Bleed Strike=流血打击 等近战技能沿用「打击」
+Bolt	弹|弹术|弩矢	元素法术二级用「X弹术」（风弹术/水弹术…）；Headless Bolt Pack=无头弩矢包
+Blast	爆|爆术	元素法术三级用「X爆术」（风爆术/水爆术…）；其它 XX Blast 以「爆」收尾（荆棘爆/星辰爆）
+Chief	酋长|头目	Hob Chief=哥布林酋长、Hobgolbin Chief Cape=大哥布林酋长披风；Thug Chief=暴徒头目。首领 一词留给 Ringleader
+Hob	哥布林	Hob = Hobgolbin 词根。Hobgolbin 仍译大哥布林以区分 Golbin；Hob Chief 按 Boss 语境直接作「哥布林酋长」
+Fells	费尔斯	讨伐大师人名（SlayerMasterStatistic.DisplayName），音译；同族 Allevia=阿莱维亚/Feriken=费里肯
+Defender	护剑	副手刺剑类装备。按「材质+器物」命名：钢护剑/铁护剑/螳螂护剑
+Neutral	无属性	与 Air/Water/Earth/Fire 并列的第五元素，指不偏向任何元素
+Mastery Guild	精通殿堂	挂在每个技能上的精通进度体系（等级/任务/解锁），不是可加入的组织；Mastery=精通
+Topaz	黄宝石	与蓝宝石/红宝石同为三字；Topazwing Yellowtail=黄宝翼黄尾鱼
+Gear	装备|制装备	技能配方子分类与套装名：Stone Gear=石制装备、Iron Gear=铁制装备；同族 Leather/Wizard/Hunter Gear 均为「装备」，勿译「齿轮」
+Upgraded	升级	(u) 后缀物品标记，译作「（升级）」：精金靴子（升级）；不保留拉丁缩写
+Collectable	收集品	(c) 后缀物品标记，译作「（收集品）」；Collectables=收集品，勿写「收藏品」
+Lit	点燃	(Lit) 后缀：提灯（点燃）
+Hitpoints	生命|生命值	技能名与面板标签用「生命」（两字对齐近战/力量/防御）；正文数值仍用「生命值」：恢复 500 点生命值
+Block	招架|封锁	攻击风格用「招架」（Defence 战斗等级 +3 的防御架势）；讨伐任务封锁仍用「封锁」，勿混
+Powerful	蓄力|蛮力	远程攻击风格=蓄力（拉满弓弦）；祈祷 Powerful Strength=蛮力
+Strength	力量|蛮力	技能=力量；祈祷 Powerful Strength=蛮力（例外，勿改技能名）
+Protection	防护	装备提供的减伤值，与 Power 对抗得抗性。不用「防御」（Defence 技能已占）也不用「保护」（动词义：保护物品/保护线圈）
+Min Hit	最小伤害	伤害浮动下限，与 Max Hit 对称
+Accuracy Rating	命中评级	可比数值（面板上 9,184），不是百分比，不叫「命中率」；Evasion Rating=闪避评级
+Chance to Hit	命中率	百分比命中概率
+Resistance	减伤	Protection/(Protection+Power) 再乘战斗三角，直接乘在伤害上，是比例不是概率；叫「抗性」易被读成闪避率。Resistances=减伤，Normal Resistance=普通减伤
+Plaguewing	瘟翼	同族都是「X翼」两字（灰翼血鹰/翠翼绿尾/墓翼蝶王/夜翼）；「瘟疫翼」里疫(yì)翼(yì)相邻同音，拗口
+Stab Evasion	刺击闪避	Stab=刺击（九个攻击姿态之一），不要写成「穿刺闪避」
+Armour Broken	护甲已击破	机制是一击伤害 >= 护甲值即永久失效，不是耐久磨损
+Damage Reduction	伤害削减	与 Resistance=减伤 区分开，两个都译「减伤/伤害减免」会分不清
+Egg	鸡蛋|蛋	通用蛋物品叫「鸡蛋」；专名保留自己的说法（幼巢蛋、金蛋）
+vs	对	「X vs Y」只表示"玩家用 X、敌人用 Y"，谁克谁看数据，不要译成「X克Y」
+Quest	剧情任务|剧情	具体一条用「剧情任务」；侧栏/列表标签（Quests）用「剧情」。与 Slayer=讨伐任务 明确分开
+Evasive	迅捷	字段是 PercentAttackInterval（攻击间隔），与闪避无关，别译成「闪避」
+On Hit	攻击命中时	攻击方视角（我打出攻击并打中）；When Hit=被命中时 才是被动。两组镜像别混，On Miss=攻击未命中时
+Slayer Master	讨伐官|讨伐委托	发单的 NPC 叫「讨伐官」（"官"=负责某事的人，不像"大师"带等级感）；入口按钮 Slayer Masters 不直译：面板左上角已写「讨伐任务」，按钮用「更多任务」说明想换活点这里
+Cut	砍伐	伐木语境一律「砍伐/砍树」，不要用电脑术语「剪切」。Cutting=扦插（植物繁殖）是另一个词
+Loot History	战利品记录	不用「历史战利品」（会被读成有历史价值的战利品）；「战利品历史」构词没错但 UI 惯例是「记录」
+Create	制作	制作界面一律「制作」（Create Bait=制作鱼饵 / Recipes Created=已制作配方）；「创建」只留给角色和存档（创建新角色/创建存档文件夹）
+Neutral	无	元素名统一单字：风/水/土/火/无。四元素要当装备前缀（风法杖），不能加「属性」；组合词各自独立（无属性巫师装备、无属性无效果）
+Prayer	祈祷	祈祷名混在普通短名里（没有 Category 标记），靠 ctx 的 Name 字段识别：Type=Level/DemoLocked 且 Name 是它提供的修饰符
+Rigour / Augury	精确 / 占卜	OSRS 系祈祷名。Rigour=严格/精确（不是「严谨」），Augury=占卜术（不是「预兆」）；Accurate 已占「精准」，所以 Rigour 用「精确」
+Evade / Elusion	闪避 / 规避	两个不同的祈祷（前者 FlatCombatStatValue，后者 FlatProtectionRating），不能都叫「闪避」
+Swiftness / Evasive	疾速 / 迅捷	Swiftness=FlatProtectionRating，Evasive=PercentAttackInterval（攻速），分开叫

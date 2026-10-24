@@ -1,0 +1,28 @@
+# v28：按使用区域（Category / Type）扫描后的修订
+# Act 数字格式前后不一（Act 1=第一章，Act 1 - X=第1幕 - X），统一成「第 N 幕：X」
+# Pitfall Trap 译「陷坑陷阱」把 trap 说了两遍
+# Sunken Shipwreck=沉没残骸、Misty Wetlands=雾湿地、Green Mangroves=绿红树林 读着别扭
+# Nightreed Braid 的 Braid 是绳辫，不是动作
+# 星象学的 Major N 是节点名，译「主要 N」看不出是什么
+Act 1	第 1 幕
+Act 2	第 2 幕
+Act 3	第 3 幕
+Act 4	第 4 幕
+Act 1 - Boarish Bonfire	第 1 幕：野猪篝火
+Act 1 - Dungeon Breakout	第 1 幕：地牢突围
+Act 1 - In the Thick of It	第 1 幕：深陷其中
+Act 1 - Misty Reconnaissance	第 1 幕：迷雾侦察
+Act 1 - Pointy Preparation	第 1 幕：尖锐准备
+Act 1 - Rocky Rumble	第 1 幕：岩石混战
+Act 1 - Tree Trimming	第 1 幕：修剪树木
+Basic Pitfall Trap	基础陷坑
+Fortified Pitfall Trap	加固陷坑
+Reinforced Pitfall Trap	强化陷坑
+Misty Wetlands	迷雾湿地
+Green Mangroves	翠绿红树林
+Sunken Shipwreck	沉船残骸
+Nightreed Braid	夜苇绳
+Major 1	主要节点 1
+Major 2	主要节点 2
+Major 3	主要节点 3
+Major 4	主要节点 4

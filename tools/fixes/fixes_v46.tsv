@@ -1,0 +1,20 @@
+# v46：祈祷名优化
+#
+# 这批短名在 PO 里没有「祈祷」标记，混在材料/装备名里，很容易译歪。
+# 确认依据：ctx 的 Name 字段是它们提供的修饰符，Type=MelvorBase:Level/DemoLocked。
+#
+# Steel Skin   钢皮肤 → 钢铁皮肤   「钢皮肤」缺字，读着像"钢质的皮肤"这种形容词
+# Rigour       严谨   → 精确       rigour 是"严格/精确"，OSRS 里是远程攻防祈祷；
+#                                  「严谨」形容的是治学态度，不是战斗。
+#                                  （Accurate 已占「精准」，这里用「精确」区分）
+# Augury       预兆   → 占卜       augury 是占卜术，不是 omen（预兆）
+# Overwhelming Strength 压倒性力量 → 压倒之力  6 字偏长，且"力量"会和力量技能混
+#
+# 保留：Chivalry=骑士精神 / Piety=虔诚 / Retribution=报应 / Faith=信仰 /
+#       Protect Item=保护物品 / Powerful Strength=蛮力（术语表已定例外）/
+#       Sharp Skin=锐利皮肤 / Tough Skin=坚韧皮肤
+
+Steel Skin	钢铁皮肤
+Rigour	精确
+Augury	占卜
+Overwhelming Strength	压倒之力

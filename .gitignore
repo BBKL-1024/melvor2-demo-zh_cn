@@ -1,0 +1,30 @@
+# 构建产物
+dist/
+artifacts/
+release/
+
+# 游戏原版文件 —— 不能提交（版权）
+*.orig
+*.locked
+GamesByMalcs.Melvor2.dll
+data_GamesByMalcs*/
+
+# 反编译 / 提取的游戏数据，仅作本地参考
+decomp/
+extracted/
+scenes/
+pck_entries.txt
+dll_ascii.txt
+dll_utf16.txt
+
+# 翻译表的滚动备份
+*.po.round*.bak
+*.po.bak
+
+# 运行时生成（mod/ 里跑一次游戏就会出现）
+*.log
+language.cfg
+*.user
+
+# 截图
+*.png

@@ -1,0 +1,20 @@
+﻿# v25：用户拍板的四项
+#
+# 1 Damage Reduction 从「伤害减免」改「伤害削减」，与 Resistance=减伤 拉开距离
+# 2 战斗三角六条去掉英文 vs.，改成「X 对 Y」
+# 3 Ward=结界 维持
+# 4 of max hit as min hit 维持
+# 5 Egg/Eggs 从「蛋」改「鸡蛋」：以后还会出别的蛋，单叫「蛋」辨识度不够
+
++1% Damage Reduction	+1% 伤害削减
+Gives the Enemy: -4% Damage Reduction	给予敌人：-4% 伤害削减
+
+Magic vs. Melee	魔法 对 近战
+Magic vs. Ranged	魔法 对 远程
+Melee vs. Magic	近战 对 魔法
+Melee vs. Ranged	近战 对 远程
+Ranged vs. Magic	远程 对 魔法
+Ranged vs. Melee	远程 对 近战
+
+Egg	鸡蛋
+Eggs	鸡蛋

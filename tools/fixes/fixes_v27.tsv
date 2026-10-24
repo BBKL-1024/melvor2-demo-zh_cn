@@ -1,0 +1,35 @@
+# v27：部位装备命名对齐
+# Torso 改成「躯甲」，与同套 Legs（X腿甲）成对；Body 去掉多余的「上身」并补齐「甲」；
+# Water Wizard Bottoms 是唯一漏改的「护腿」（同类 13 条都是「下装」）；
+# String=细绳，两个升级版却叫「绳子」。
+Agility Torso	敏捷躯甲
+Astrology Torso	占星躯甲
+Beastcrafting Torso	兽类制作躯甲
+Cooking Torso	烹饪躯甲
+Crafting Torso	制作躯甲
+Farming Torso	农耕躯甲
+Firemaking Torso	生火躯甲
+Fishing Torso	钓鱼躯甲
+Fletching Torso	制箭躯甲
+Herblore Torso	草药学躯甲
+Hunting Torso	狩猎躯甲
+Mining Torso	采矿躯甲
+Ranching Torso	牧场躯甲
+Runecrafting Torso	符文制作躯甲
+Smithing Torso	锻造躯甲
+Thieving Torso	偷窃躯甲
+Woodcutting Torso	伐木躯甲
+Torso	躯甲
+Leather Body	皮甲
+Caribou Leather Body	驯鹿皮甲
+Elk Leather Body	麋鹿皮甲
+Studded Leather Body	铆钉皮甲
+Hard Leather Body	硬皮甲
+Hard Elk Leather Body	硬麋鹿皮甲
+Studded Elk Leather Body	铆钉麋鹿皮甲
+Chainmail Body	锁子甲
+Venom Queen Body	毒液女王躯甲
+Thornback Camo Body	棘背伪装躯甲
+Water Wizard Bottoms	水巫师下装
+Fortified String	加固细绳
+Reinforced String	强化细绳

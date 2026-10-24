@@ -1,0 +1,21 @@
+# v17 -- Gear 是锻造/制作的「装备分类」，不是齿轮
+#
+# 数据包里的实际结构（Melvor2.exe）：
+#   { "Id": "StoneGear", "DisplayName": "Stone Gear",
+#     "Icon": "res://Assets/Skills/Smithing/StoneGear.png",
+#     "ActionAudio": ".../Smithing/SFX_SmithStone.ogg",
+#     "ShowSubcategoryButtons": false, "ShowInMilestones": true }
+# 与 Smelting（熔炼）、Star Forge 并列，是 Smithing 技能的子分类，
+# 分类下挂的是该材质的一整套武器与护甲配方。同族的 Leather Gear / Wizard Gear
+# 本来就译作「装备」，只有这 9 条金属名被误读成机械零件。
+#
+# 命名规则：单字材质加「制」（不做"铁装备"这种残词），双字材质直接用材质名。
+Stone Gear	石制装备
+Copper Gear	铜制装备
+Iron Gear	铁制装备
+Steel Gear	钢制装备
+Dragon Gear	龙制装备
+Mithril Gear	秘银装备
+Adamant Gear	精金装备
+Rune Gear	符文装备
+Dawnsteel Gear	晨钢装备

@@ -1,0 +1,125 @@
+# 第四批：标点统一（半角冒号/省略号 -> 全角）+ 三条术语不一致
+# 规矩：中文标点全角，省略号用 ……；术语跟随 glossary
+#
+# msgid	新译文
+Consume [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] toolbelt items	消耗 [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] 件工具栏物品
+Consume [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] toolbelt items in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]	在 [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b] 中消耗 [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] 件工具栏物品
+Search...	搜索……
+Loading...	加载中……
+Waiting...	等待中……
+Password...	密码……
+Username...	用户名……
+Please wait...	请稍候……
+Email Address...	邮箱地址……
+Satisfaction: 0%	满意度： 0%
+Unlocked: 6 / 30	已解锁： 6 / 30
+Applied to enemy:	施加于敌人：
+Calculation Time:	计算耗时：
+Damage Per Proc: 	每次触发伤害： 
+Dungeon Progress:	地牢进度：
+Expansion Ratio: 	扩建比例： 
+Fortune: [b]0[/b]	运势： [b]0[/b]
+Global Modifiers:	全局修正：
+Happiness: {0:P0}	幸福度： {0:P0}
+Last Cloud Save: 	上次云存档： 
+Regrows: [b]0[/b]	再生： [b]0[/b]
+Stealth: [b]0[/b]	潜行： [b]0[/b]
+Ticks per Second:	每秒刻数：
+Total Time Spent:	总耗时：
+When at 0 stacks:	层数为0时：
+When equipped to:	装备于：
+While being used:	使用期间：
+Current Knowledge:	当前知识：
+Paste code here...	在此粘贴代码……
+Search for item...	搜索物品……
+Skill Difficulty: 	技能难度： 
+Watering provides:	浇水提供：
+Collectables found:	已发现收集品：
+Completion Rewards:	完成奖励：
+Confirm Password...	确认密码……
+Current Knowledge: 	当前知识： 
+Name your config...	命名你的配置……
+Other Requirements:	其他需求：
+Other requirements:	其他需求：
+Time Spent Stunned:	眩晕耗时：
+Description Preview:	描述预览：
+Experience per Hour:	每小时经验：
+Name your Character:	命名你的角色：
+No Quest selected...	未选择任务……
+Perception: [b]0[/b]	感知： [b]0[/b]
+Progress Conditions:	进度条件：
+Quest in progress...	任务进行中……
+Satisfaction: {0:P0}	满意度： {0:P0}
+This Animal prefers:	这只动物偏好：
+Time Spent Fighting:	战斗耗时：
+Time Spent Stealing:	偷窃耗时：
+Total Charges Left: 	剩余总次数： 
+Unlock Requirements:	解锁需求：
+Max Hit: [b]1 - 0[/b]	最高伤害： [b]1 - 0[/b]
+Success Chance: 0.00%	成功率： 0.00%
+This event lasts for:	此事件持续：
+Total Success Chance:	总成功率：
+Enter email address...	输入邮箱地址……
+Fortune: [b]{0:N0}[/b]	运势： [b]{0:N0}[/b]
+Regrows: [b]{0:N0}[/b]	再生： [b]{0:N0}[/b]
+Requirements to start:	开始需求：
+Sorting Type: Default.	排序方式： 默认。
+Stealth: [b]{0:N0}[/b]	潜行： [b]{0:N0}[/b]
+Success Chance: {0:P2}	成功率： {0:P2}
+When at {0:N0} stacks:	层数为 {0:N0} 时：
+Possible Extra Rewards:	可能的额外奖励：
+At the end of each turn:	每回合结束时：
+Regrowing: [b]2 left[/b]	再生中： [b]剩余 2[/b]
+Perception: [b]{0:N0}[/b]	感知： [b]{0:N0}[/b]
+Max Hit: [b]1 - {0:N0}[/b]	最高伤害： [b]1 - {0:N0}[/b]
+Regrow Interval: [b]0s[/b]	再生间隔： [b]0s[/b]
+Loading Offline Progress...	正在加载离线进度……
+Replaces your attacks with:	将你的攻击替换为：
+Your defeat came at a cost:	你的失败付出了代价：
+Damage on Fail: [b]1 - 0[/b]	失败伤害： [b]1 - 0[/b]
+Success Chance: [b]0.00%[/b]	成功率： [b]0.00%[/b]
+While being used in Hunting:	用于狩猎时：
+Complete Obstacle to collect:	完成障碍以收集：
+One roll per recipe creation:	每次制作配方抽取一次：
+Success Chance: [b]{0:P2}[/b]	成功率： [b]{0:P2}[/b]
+Tracker waiting for action...	追踪器等待操作……
+Waiting for Quest to begin...	等待任务开始……
+When used as Bait in Fishing:	作为钓鱼鱼饵使用时：
+One roll per base recipe step:	每个基础配方步骤抽取一次：
+Paste your save string here...	在此粘贴你的存档字符串……
+Time-based Completion Rewards:	基于时间的完成奖励：
+Error: Save String is not valid	错误： 存档字符串无效
+Modifiers for this Animal only:	仅此动物的修正：
+When used as Compost in Farming:	作为农耕堆肥使用时：
+Damage on Fail: [b]1 - {0:N0}[/b]	失败伤害： [b]1 - {0:N0}[/b]
+For each consecutive Trapping fail:	每次连续陷阱失败：
+Here's what we decided to give you:	这是我们决定给你的：
+Waiting for recipe to be created...	等待配方制作完成……
+Waiting for you to hunt something...	等待你狩猎一些东西……
+Gives the Enemy: -4% Damage Reduction	给予敌人： -4% 伤害减免
+Waiting for you to select something...	等待你选择……
+Please wait while we rig the results...	请稍候，我们正在操纵结果……
+Cloud code or base64 string goes here...	云存档代码或 base64 字符串填在这里……
+Air:\n[ul]Beats Earth\nLoses to Fire[/ul]	风：\n[ul]克制土\n被火克制[/ul]
+Fire:\n[ul]Beats Air\nLoses to Water[/ul]	火：\n[ul]克制风\n被水克制[/ul]
+Earth:\n[ul]Beats Water\nLoses to Air[/ul]	土：\n[ul]克制水\n被风克制[/ul]
+Additional bonuses per Minor Node unlocked:	每解锁一个次要节点获得的额外加成：
+Upon recipe creation, these may also occur:	制作配方时，还可能出现：
+Water:\n[ul]Beats Fire\nLoses to Earth[/ul]	水：\n[ul]克制火\n被土克制[/ul]
+[color=#E9DFC1]Success Chance: 0.00%[/color]	[color=#E9DFC1]成功率： 0.00%[/color]
+The following Cloud features are unavailable:	以下云功能不可用：
+[color=#E9DFC1]Success Chance: {0:p2}[/color]	[color=#E9DFC1]成功率： {0:p2}[/color]
+Last Save: 1/10/2024, 13:05:16 Australia/Perth	上次存档： 2024/10/1, 13:05:16 澳大利亚/珀斯
+When an item is destroyed, a gift is received instead:	物品被销毁时，改为获得一份礼物：
+Regrow Interval: [b]{0:numbertime(ms):auto abbr noless:}[/b]	再生间隔： [b]{0:numbertime(ms):auto abbr noless:}[/b]
+[b]More Task types coming soon:[/b]\n[ul] Locate/obtain Pets\n Complete Quests\n Find rare/hidden items[/ul]	[b]更多任务类型即将推出：[/b]\n[ul] 寻找/获得宠物\n 完成任务\n 寻找稀有/隐藏物品[/ul]
+Apply this setting to all unlocked Plots in this category.\n\n[b]Note:[/b] Only applies to Plots with a [b]Planted[/b] Product.	将此设置应用到此类别中所有已解锁地块。\n\n[b]注意：[/b] 仅适用于已[b]种植[/b]产物的地块。
+Apply this setting to all unlocked Plots in this category.\n\n[b]Note:[/b] Only applies to Plots with a [b]Selected[/b] Product.	将此设置应用到此类别中所有已解锁地块。\n\n[b]注意：[/b] 仅适用于已[b]选中[/b]产物的地块。
+[img height=1.25em]res://Assets/Skills/AnimalHusbandry/happiness.png[/img] [b]Happiness[/b] is calculated as the average of these 3 substats:	[img height=1.25em]res://Assets/Skills/AnimalHusbandry/happiness.png[/img] [b]幸福度[/b]由这3项子属性的平均值计算：
+Hunting is automatic and involves three stages: Surveying an area, Tracking an animal, and attempting to Trap it.\n\nIf trapping fails, the animal flees and must be tracked again.	狩猎是自动的，包括三个阶段：勘测区域、追踪动物、尝试设陷阱。\n\n若设陷阱失败，动物会逃走，必须重新追踪。
+[color=#b5b5b5]Imports the Bank Configuration from the provided base64 string or Cloud code.\n[b][color=orange]Note:[/color][/b] Lock Bank Configuration is automatically enabled when importing.\n[b][color=orange_red]Warning:[/color][/b] This will overwrite your entire existing Bank Configuration. This cannot be undone. Use with caution.[/color]	[color=#b5b5b5]从提供的 base64 字符串或云代码导入库存配置。\n[b][color=orange]注意：[/color][/b] 导入时会自动启用锁定库存配置。\n[b][color=orange_red]警告：[/color][/b] 这将覆盖你现有的全部库存配置。此操作无法撤销。请谨慎使用。[/color]
+Happy Animals, happy farm.\n[ul]Calculated based on the three other stats.\n[b]Skill XP[/b] & [b]Produce[/b] is multiplied by the Animal's [b]Happiness[/b].\nCannot go below [color=orange]0%[/color].[/ul]\n\n[i]Happiness = Hunger * 0.3 + Comfort * 0.3 + Satisfaction * 0.4[/i]\nNote: [b]Comfort[/b] is [color=green]1[/color] if >= [color=orange]75%[/color]	快乐的动物，快乐的农场。\n[ul]根据其他三项属性计算。\n[b]技能经验[/b]与[b]产出[/b]会乘以动物的[b]幸福度[/b]。\n不会低于 [color=orange]0%[/color]。[/ul]\n\n[i]幸福度 = 饥饿度 * 0.3 + 舒适度 * 0.3 + 满意度 * 0.4[/i]\n注意： 若 [b]舒适度[/b] >= [color=orange]75%[/color]，则视为 [color=green]1[/color]
+There are three Combat Styles: [color=#FFD16D]Melee, Ranged[/color] and [color=#FFD16D]Magic[/color]. Your equipped [color=#FFD16D]weapon[/color] determines which style you use.\n\n[color=#FFD16D]Melee[/color] beats [color=#FFD16D]Ranged[/color]\n[color=#FFD16D]Ranged[/color] beats [color=#FFD16D]Magic[/color]\n[color=#FFD16D]Magic[/color] beats [color=#FFD16D]Melee[/color]\n\nBeating a Combat Style [color=green]increases your Max Hit by 10%[/color], while losing [color=orange_red]decreases it by 10%[/color]. This is only applied to you, and never the Enemy.	共有三种战斗风格：[color=#FFD16D]近战、远程[/color]和[color=#FFD16D]魔法[/color]。你装备的[color=#FFD16D]武器[/color]决定你使用哪种风格。\n\n[color=#FFD16D]近战[/color] 克制 [color=#FFD16D]远程[/color]\n[color=#FFD16D]远程[/color] 克制 [color=#FFD16D]魔法[/color]\n[color=#FFD16D]魔法[/color] 克制 [color=#FFD16D]近战[/color]\n\n克制某种战斗风格会[color=green]使你的最高伤害提高10%[/color]，被克制则[color=orange_red]降低10%[/color]。这仅作用于你，绝不作用于敌人。
+Long-Range Attack Bonus	远距离攻击加成
+Long-Range Defence Bonus	远距离防御加成
+{Value:+0.##%;-#.##%} Hunting Trapping interval	{Value:+0.##%;-#.##%} 狩猎陷阱间隔

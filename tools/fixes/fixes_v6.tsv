@@ -1,0 +1,25 @@
+﻿# 不同实体被译成同一中文，玩家在背包 / 战斗里分不清。
+# 每行：msgid <TAB> 新译文。左列保留原译，右列改为可区分的新词。
+#
+# Rope(绳子) 是独立物品；String 是亚麻搓的细绳，与 Rope 撞名
+String	细绳
+#
+# Spirit 是实体（DemoLocked / WhenHit）；Sprite 才是界面里的「精灵」
+Spirit	灵魂
+#
+# Sheep 是普通羊；Woolie Sheep 是独立怪物
+Woolie Sheep	羊毛羊
+#
+# Super Compost 保留「超级堆肥」，Ultra 才是高一档
+Ultra Compost	究极堆肥
+#
+# Reinforced 有 10+ 个物品且更常见，保留「强化」；Bolstered 只有这 3 个，改「增强」
+Bolstered Fishing Line	增强钓鱼线
+Bolstered Axe Binding	增强斧头绑带
+Bolstered Pickaxe Binding	增强镐头绑带
+#
+# Quicksand 是实体名；Shifting Sands 是开战时的效果名
+Shifting Sands	流沙狂涌
+#
+# 等级体系是 新手 / ? / 专家 / 大师，而 Mastery 才是系统名「精通」
+Adept	熟练

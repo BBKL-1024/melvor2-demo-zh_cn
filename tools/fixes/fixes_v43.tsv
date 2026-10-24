@@ -1,0 +1,5 @@
+# v43：swap 把这条长句里的两处「战利品历史」一起换掉，结果成了「未记录战利品记录」，
+# 既重复又不通，整句重译。原文 No Loot History registered. / Loot History for this
+# Enemy will appear when you slay one.
+
+No Loot History registered.\n\nLoot History for this Enemy will appear when you slay one.	暂无战利品记录。\n\n击杀一只后，该敌人的战利品记录就会显示在这里。

@@ -1,0 +1,12 @@
+# v45：两处
+#
+# 1 制作界面的按钮 Create 译成「创建」是软件术语。同族已经全是「制作」：
+#   Create Bait=制作鱼饵 / Create Materials=制作材料 / Recipes Created=已制作配方。
+#   （Character Creation Date=角色创建日期 这类跟角色相关的「创建」保持不动。）
+# 2 元素名长度不齐：Air/Water/Earth/Fire 都是单字，Neutral 却「无属性」三字。
+#   四元素要当装备前缀用（Air Staff=风法杖），不能加「属性」二字；
+#   所以把 Neutral 收成「无」，元素栏变成 风/水/土/火/无，长度对齐。
+#   组合词各自独立，`Neutral Wizard Gear`=无属性巫师装备、`Neutral has no effect.`=无属性无效果。 不受影响。
+
+Create	制作
+Neutral	无

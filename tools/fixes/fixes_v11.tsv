@@ -1,0 +1,20 @@
+﻿# v11 -- label families whose Chinese head disagreed with itself.
+#
+# Found by grouping every "X", "X: {0}", "X >= {0}" entry by its English head and
+# comparing the Chinese part before the separator. Four families really did
+# disagree; the rest of the 41 hits were word-order noise (Chinese moves the
+# context clause to the front, so the literal head never matches).
+#
+# Kept as-is on purpose:
+#   Step {0}/{1}          步骤 3 / 5      vs  Step 3 of 5 complete  第 3 / 5 步完成
+#   Save (verb)           保存            vs  Saves (noun)          存档
+
+Hunger	饥饿度
+Hunger: 0%	饥饿度：0%
+Hunger: {0:P0}	饥饿度：{0:P0}
+
+Growing: - / -	生长中：- / -
+
+Last Save: {0} ({1:time:abbr auto} ago)	上次存档：{0}（{1:time:abbr auto} 前）
+
+Sorting Type: Default.	排序类型：默认。

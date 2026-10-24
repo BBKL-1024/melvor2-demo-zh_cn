@@ -1,0 +1,65 @@
+# v18 -- 括号后缀标记本地化
+# (u) = Upgraded：数据包里 Id 以 U 结尾、图标名 AdamantBootsUpgraded.png，
+#       并有 Upgrade 配方（本体 + 金条/银条/材质条 + 金币 -> 成品）。
+# (c) = Collectable：Id 为 GoldenEggCollectable / ChoccyMilkCollectable。
+# 先例：(Lit) 已译作「（点燃）」，全角括号 + 中文，保持一致。
+Air Wizard(u)	风巫师（升级）
+Dust Wizard(u)	尘巫师（升级）
+Earth Wizard(u)	土巫师（升级）
+Fire Wizard(u)	火巫师（升级）
+Steam Wizard(u)	蒸汽巫师（升级）
+Water Wizard(u)	水巫师（升级）
+Adamant Boots (u)	精金靴子（升级）
+Adamant Helmet (u)	精金头盔（升级）
+Adamant Platebody (u)	精金胸甲（升级）
+Adamant Platelegs (u)	精金护腿（升级）
+Air Wizard Boots (u)	风巫师靴子（升级）
+Air Wizard Bottoms (u)	风巫师护腿（升级）
+Air Wizard Hat (u)	风巫师帽（升级）
+Air Wizard Robes (u)	风巫师长袍（升级）
+Chainmail Body (u)	锁子甲上身（升级）
+Chainmail Boots (u)	锁子甲靴子（升级）
+Chainmail Chaps (u)	锁子甲护腿（升级）
+Chainmail Cowl (u)	锁子甲头盔（升级）
+Choccy Milk (c)	巧克力奶（收集品）
+Dire Alpha Wolf Trophy (c)	恐狼首领战利品（收集品）
+Dust Wizard Boots (u)	尘巫师靴子（升级）
+Dust Wizard Bottoms (u)	尘巫师护腿（升级）
+Dust Wizard Hat (u)	尘巫师帽（升级）
+Dust Wizard Robes (u)	尘巫师长袍（升级）
+Earth Wizard Boots (u)	土巫师靴子（升级）
+Earth Wizard Bottoms (u)	土巫师护腿（升级）
+Earth Wizard Hat (u)	土巫师帽（升级）
+Earth Wizard Robes (u)	土巫师长袍（升级）
+Elk Leather Chaps (u)	麋鹿皮护腿（升级）
+Emberfang (c)	烬牙（收集品）
+Emerald Butterfly Wing (c)	绿宝石蝶翼（收集品）
+Emerald Greentail Feather (c)	绿宝石绿尾羽（收集品）
+Fire Wizard Boots (u)	火巫师靴子（升级）
+Fire Wizard Bottoms (u)	火巫师护腿（升级）
+Fire Wizard Hat (u)	火巫师帽（升级）
+Fire Wizard Robes (u)	火巫师长袍（升级）
+Golden Egg (c)	金蛋（收集品）
+Iron Boar Tusk (c)	铁野猪獠牙（收集品）
+Lost Sibling's Wand (c)	失散手足的魔杖（收集品）
+Mithril Boots (u)	秘银靴子（升级）
+Mithril Helmet (u)	秘银头盔（升级）
+Mithril Platebody (u)	秘银胸甲（升级）
+Mithril Platelegs (u)	秘银护腿（升级）
+Obsidian Lizard Spike (c)	黑曜蜥蜴尖刺（收集品）
+Sapphire Bluetail Feather (c)	蓝宝石蓝尾羽（收集品）
+Starhorn Antler (c)	星角鹿角（收集品）
+Steam Wizard Boots (u)	蒸汽巫师靴子（升级）
+Steam Wizard Bottoms (u)	蒸汽巫师护腿（升级）
+Steam Wizard Hat (u)	蒸汽巫师帽（升级）
+Steam Wizard Robes (u)	蒸汽巫师长袍（升级）
+Steppe Alpha Trophy (c)	草原首领战利品（收集品）
+Topaz Yellowtail Feather (c)	黄宝石黄尾羽（收集品）
+Water Wizard Boots (u)	水巫师靴子（升级）
+Water Wizard Bottoms (u)	水巫师护腿（升级）
+Water Wizard Hat (u)	水巫师帽（升级）
+Water Wizard Robes (u)	水巫师长袍（升级）
+# 顺手统一：Collectable 在术语表里应统一为「收集品」（与 Collectables=收集品 一致）
+Gain a random Collectable item	获得一个随机收集品
+# 全角括号规范化：唯一一条残留半角空格
+Wellspring Cavern (D)	涌泉洞窟（D）

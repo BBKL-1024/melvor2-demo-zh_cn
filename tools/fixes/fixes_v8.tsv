@@ -1,0 +1,151 @@
+# 第三批：Bank→库存（图标是箱子，不是银行）；Slayer→悬赏；地精→大哥布林（与 Hobgolbin 统一）
+# 生成方式：对现有译文的整词替换，逐条落表便于复核。
+#
+# msgid	新译文
+Bank	库存
+Bank Full - Item Lost	库存已满 - 物品丢失
+Bury {0:N0} / {1:N0} items in the Bank	在库存中埋葬 {0:N0} / {1:N0} 件物品
+Complete [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{EnemyName}[/b] [img height=1.25em]{EntityIcon}[/img] [b]Slayer[/b] Tasks	完成 [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] 个 [b]{EnemyName}[/b] [img height=1.25em]{EntityIcon}[/img] [b]悬赏[/b] 任务
+Complete [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [img height=1.25em]{EntityIcon}[/img] [b]Slayer[/b] Tasks	完成 [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] 个 [img height=1.25em]{EntityIcon}[/img] [b]悬赏[/b] 任务
+Complete [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [img height=1.25em]{EntityIcon}[/img] [b]Slayer[/b] Tasks for [img height=1.25em]{MasterIcon}[/img] [b]{MasterName}[/b]	完成 [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] 个 [img height=1.25em]{EntityIcon}[/img] [b]悬赏[/b] 任务，委托人为 [img height=1.25em]{MasterIcon}[/img] [b]{MasterName}[/b]
+Complete {Current:N0} / {Max:N0} Slayer Tasks from [b]{MasterName}[/b]	完成 [b]{MasterName}[/b] 的 {Current:N0} / {Max:N0} 个悬赏任务
+Complete {Current:N0} / {Max:N0} {EnemyName} Slayer Tasks in Combat	在战斗中完成 {Current:N0} / {Max:N0} 个 {EnemyName} 悬赏任务
+Damage Dealt to Slayer Tasks	对悬赏任务造成的伤害
+Damage Taken from Slayer Tasks	来自悬赏任务承受的伤害
+Deal {0:N0} / {1:N0} damage to Slayer Tasks	对悬赏任务造成 {0:N0} / {1:N0} 点伤害
+Die {0:N0} / {1:N0} times to Slayer Tasks	在悬赏任务中死亡 {0:N0} / {1:N0} 次
+Earn [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [img height=1.25em]{CurrencyIcon}[/img] [b]{CurrencyName}[/b] from [b]{EnemyName}[/b] [img height=1.25em]{EntityIcon}[/img] [b]Slayer[/b] Tasks	从 [b]{EnemyName}[/b] [img height=1.25em]{EntityIcon}[/img] [b]悬赏[/b] 任务中赚取 [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [img height=1.25em]{CurrencyIcon}[/img] [b]{CurrencyName}[/b]
+Earn [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [img height=1.25em]{CurrencyIcon}[/img] [b]{CurrencyName}[/b] from [img height=1.25em]{EntityIcon}[/img] [b]Slayer[/b] Tasks	从 [img height=1.25em]{EntityIcon}[/img] [b]悬赏[/b] 任务中赚取 [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [img height=1.25em]{CurrencyIcon}[/img] [b]{CurrencyName}[/b]
+Extend {Current:N0} / {Max:N0} Slayer Tasks from {MasterName}	延长 {MasterName} 的 {Current:N0} / {Max:N0} 个悬赏任务
+Fighting against Slayer Tasks	与悬赏任务战斗
+Kill {0:N0} / {1:N0} Slayer Task enemies	击杀 {0:N0} / {1:N0} 个悬赏任务敌人
+Reroll {Current:N0} / {Max:N0} Slayer Tasks from {MasterName}	重抽 {MasterName} 的 {Current:N0} / {Max:N0} 个悬赏任务
+Slayer	悬赏
+Slayer Coins Spent Blocking Tasks	用于屏蔽任务的悬赏币消耗
+Slayer Coins Spent Extending Tasks	用于延长任务的悬赏币消耗
+Slayer Coins Spent Rerolling Tasks	用于重抽任务的悬赏币消耗
+Spend {Current:N0} / {Max:N0} {BlockCurrencyName} blocking Slayer Tasks from {MasterName}	花费 {Current:N0} / {Max:N0} {BlockCurrencyName} 屏蔽 {MasterName} 的悬赏任务
+Spend {Current:N0} / {Max:N0} {RerollCurrencyName} extending Slayer Tasks from {MasterName}	花费 {Current:N0} / {Max:N0} {RerollCurrencyName} 延长 {MasterName} 的悬赏任务
+Spend {Current:N0} / {Max:N0} {RerollCurrencyName} rerolling Slayer Tasks from {MasterName}	花费 {Current:N0} / {Max:N0} {RerollCurrencyName} 重抽 {MasterName} 的悬赏任务
+Take {0:N0} / {1:N0} damage from Slayer Tasks	承受来自悬赏任务的 {0:N0} / {1:N0} 点伤害
+Times Died to Slayer Tasks	死于悬赏任务的次数
+Total Slayer Task Enemies Killed	总击杀悬赏任务敌人数
+[b][color=#ff4500]Failed to Harvest ({0})[/color][/b] - Not enough space in Bank.	[b][color=#ff4500]收获失败（{0}）[/color][/b] - 库存空间不足。
+[b][color=#ff4500]Failed to add[/color] {0:N0} x {1} [color=#ff4500]to your Bank due to lack of space.[/color][/b]	[b][color=#ff4500]因空间不足，未能将[/color] {0:N0} x {1} [color=#ff4500]添加到你的库存。[/color][/b]
+[b][color=#ff4500]Failed to apply {0}[/color][/b] - Not enough [b]{0}[/b] in the Bank.	[b][color=#ff4500]未能施加 {0}[/color][/b] - 库存中 [b]{0}[/b] 不足。
+[center][img height=1.25em]{0}[/img] [b][color={1}]{2:N0}[/color] in Bank[/b][/center]	[center][img height=1.25em]{0}[/img] [b][color={1}]{2:N0}[/color] 在库存中[/b][/center]
+[color=orange_red]Hunting stopped due to no [img height=1.25em]{0}[/img] [b]{1}[/b] left in Bank.[/color]	[color=orange_red]由于库存中没有剩余的 [img height=1.25em]{0}[/img] [b]{1}[/b]，狩猎已停止。[/color]
+Bank QoL	库存便捷功能
+0 in Bank	库存中 0 个
+Bank Full!	库存已满！
+Bank Slots	库存栏位
+Bank Space	库存容量
+Bank Value	库存价值
+Slayer Task	悬赏任务
+Bank Value: 	库存价值： 
+Slayer Master	悬赏大师
+Bank Item Tags	库存物品标签
+Slayer Masters	悬赏大师
+{0:N0} in Bank	库存中 {0:N0} 个
+Slayer Master: 	悬赏大师： 
+Slayer Equipment	悬赏装备
+Bank Configuration	库存配置
+Enable Auto Slayer	启用自动悬赏
+View Slayer Masters	查看悬赏大师
+Slayer Masters & Tasks	悬赏大师与任务
+Lock Bank Configuration	锁定库存配置
+Sorting, Bank Tags, etc	排序、库存标签等
+Stop Action on Full Bank	库存满时停止操作
+Import Bank Configuration	导入库存配置
+No Slayer Master Selected	未选择悬赏大师
+Bank Configuration sharing	库存配置分享
+Item Lost due to Bank Full	库存已满导致物品丢失
+Generate Bank Configuration	生成库存配置
+Bank Full Native Notification	库存已满系统通知
+Locks every Item in your Bank.	锁定你库存中的每件物品。
+Add Slayer Master Task Completion	添加悬赏大师任务完成数
+Unable to claim rewards. Bank full?	无法领取奖励。库存已满？
+Your total Bank Value change per hour	你每小时库存总价值变化
+Add All Slayer Master Task Completions	添加全部悬赏大师任务完成数
+Enable Bank navigation for Bank Header	为库存标题启用库存导航
+Items are deposited to your Bank automatically.	物品会自动存入你的库存。
+Enables Placeholder for every Item in your Bank.	为库存中的每件物品启用占位。
+[color=orange_red]Not enough Traps in Bank.[/color]	[color=orange_red]库存中的陷阱不足。[/color]
+Set your preferred sorting type for Items in the Bank.	设置库存物品的首选排序方式。
+Get a Task from a Slayer Master to start training Slayer	从悬赏大师处领取任务以开始训练悬赏技能
+Bank Configuration is locked. Some settings are disabled.	库存配置已锁定。部分设置被禁用。
+If disabled, Items will be destroyed if they cannot fit in your Bank.	若禁用，无法放入库存的物品将被销毁。
+Whether to show a Native OS notification when your Bank becomes full.	库存满时是否显示系统通知。
+Automatically enable Placeholder for every new Item added into your Bank.	自动为存入库存的每件新物品启用占位。
+Stops your active Action when the Bank fails to add an Item due to being full.	当库存因已满而无法存入物品时停止当前操作。
+Allow navigation to the Bank when clicking on the Bank space breakdown in the Header.	点击标题栏的库存空间明细时允许跳转到库存。
+Automatically sorts your Bank when Items are added. This is useful for maintaining custom Item ordering.	物品存入时自动整理你的库存。这有助于维持自定义物品顺序。
+[color=#FFD16D]Double Click[/color] [color=light_gray]on Bank Tab[/color]\n[color=#E9DFC1]Edit Bank Tab Label	[color=#FFD16D]双击[/color] [color=light_gray]库存标签页[/color]\n[color=#E9DFC1]编辑库存标签页名称
+[center][img height=1.25em]res://Assets/Items/NormalLog.png[/img] [b][color=green]20,000[/color] in Bank[/b][/center]	[center][img height=1.25em]res://Assets/Items/NormalLog.png[/img] [b]库存中有 [color=green]20,000[/color][/b][/center]
+Craft powerful Slayer weapons and armour to improve your effectiveness during Slayer training for all Melee, Ranged and Magic	制作强力的悬赏武器与护甲，以提升你在所有近战、远程和魔法悬赏训练中的效果
+[color=#FFD16D]Middle Mouse Click[/color] [color=light_gray]on Bank Tab[/color]\n[color=#E9DFC1]Delete Bank Tab[color=light_gray]	[color=#FFD16D]中键点击[/color] [color=light_gray]库存标签页[/color]\n[color=#E9DFC1]删除库存标签页[color=light_gray]
+Select from [color=#FFD16D]Combat Areas, Slayer Zones[/color] or [color=#FFD16D]Dungeons[/color] to find different enemies to battle.	从[color=#FFD16D]战斗区域、悬赏区域[/color]或[color=#FFD16D]地牢[/color]中选择不同的敌人进行战斗。
+[color=#FFD16D]Prayer Points[/color] are obtained by buring [u]Bones[/u] dropped from slain Enemies (via your Bank), or through other methods such as Firemaking.	[color=#FFD16D]祈祷点[/color]可通过燃烧被击杀敌人掉落的[u]骨头[/u]（在你的库存中）或其他方式（如生火）获得。
+Any new Item stack that contains any of the enabled tags will be placed into this Bank Tab automatically (First match, left-to-right).\n\nCustom Sorting order with Auto Sorting enabled overrides this affinity.	任何包含已启用标签的新物品组都会自动放入此库存标签页（左至右首个匹配）。\n\n启用自动排序时的自定义排序顺序会覆盖此归属。
+Locking your Bank Configuration will remove the ability to manually rearrange Items, manage Bank tabs, and manage affinities.\nThis is useful if you create or import a specific Bank Configuration and don't want to edit it.	锁定库存配置将移除手动重排物品、管理库存标签页和管理归属的能力。\n如果你创建或导入了特定库存配置且不想被修改，这会很有用。
+Generates a base64 string based on your current Bank Configuration, which can be shared or uploaded to the Cloud.\nBank Configurations include all Bank tabs & custom labels, Bank tab affinities, default Item tab & placement order, and Item locked & placeholder status.	根据你当前的库存配置生成一个 base64 字符串，可分享或上传到云端。\n库存配置包括所有库存标签页及自定义名称、标签页归属、默认物品标签与摆放顺序，以及物品锁定与占位状态。
+[color=#b5b5b5]Imports the Bank Configuration from the provided base64 string or Cloud code.\n[b][color=orange]Note:[/color][/b] Lock Bank Configuration is automatically enabled when importing.\n[b][color=orange_red]Warning:[/color][/b] This will overwrite your entire existing Bank Configuration. This cannot be undone. Use with caution.[/color]	[color=#b5b5b5]从提供的 base64 字符串或云代码导入库存配置。\n[b][color=orange]注意:[/color][/b] 导入时会自动启用锁定库存配置。\n[b][color=orange_red]警告:[/color][/b] 这将覆盖你现有的全部库存配置。此操作无法撤销。请谨慎使用。[/color]
++20 Bank Slots	+20 库存格位
++25 Bank Slots	+25 库存格位
++30 Bank Slots	+30 库存格位
++50 Bank Slots	+50 库存格位
+Alpha Bank Slots	阿尔法库存格位
+Apprentice Slayer	学徒悬赏者
+Bank Capacity Upgrades	库存容量升级
+Basic Slayer Gauntlet	基础悬赏护手
+Copper Slayer Permit	铜悬赏许可证
+Gold Slayer Permit	金悬赏许可证
+Journeyman Slayer	熟练悬赏者
+Locked Bank Chest	上锁的库存宝箱
+Silver Slayer Permit	银悬赏许可证
+Slayer Ammo	悬赏弹药
+Slayer Area Effect Removals	悬赏区域效果移除
+Slayer Challenge Contract	悬赏挑战契约
+Slayer Coins	悬赏币
+Slayer General	悬赏通用
+Slayer General Upgrades	悬赏通用升级
+Slayer Initiate	悬赏者入门
+Slayer Loadout	悬赏配置
+Slayer Permits	悬赏许可证
+Slayer Potion	悬赏药水
+Slayer Potion P1-A	悬赏药水 P1-A
+Slayer Potion P2-A	悬赏药水 P2-A
+Slayer Potion P2-B	悬赏药水 P2-B
+Slayer Rank 2	悬赏等级 2
+Slayer Rank 3	悬赏等级 3
+Slayer Zones	悬赏区域
+Super Slayer Potion	超级悬赏药水
+Super Slayer Potion P1-A	超级悬赏药水 P1-A
+Super Slayer Potion P2-A	超级悬赏药水 P2-A
+Super Slayer Potion P2-B	超级悬赏药水 P2-B
+Hobforge Gloves	大哥布林锻造手套
+Basic Slayer Gauntlets	基础悬赏护手
+Slayer Challenge Contracts	悬赏挑战契约
+Capacity upgrades for your Bank	库存容量升级
+Disable Slayer Area Effects.	禁用悬赏区域效果。
+Disables this areas slayer effect.	禁用此区域的悬赏效果。
+Grants access new slayer zones.	开放新的悬赏区域。
+Increase Bank capacity here	在此提升库存容量
+Increases the capacity of your Bank.	提升你的库存容量。
+Supplies a basic slayer gauntlet.	供应基础悬赏护手。
+Tougher Combat Areas requiring Slayer Levels to access.	更艰难的战斗区域，需要悬赏等级才能进入。
+Upgrades for Slayer.	悬赏升级。
+Useful for Slayer	对悬赏有用
+[color=orange][b](ALPHA TEST ONLY, WILL BE REMOVED)[/b][/color] Purchase this once you have experienced the initial Bank Slot limit as a new player (100). This is an Alpha purchase only that will be removed in the future, in favour of a reworked way of purchasing Bank Slots. Reworked method of purchasing requires more game content before adding.	[color=orange][b](仅限 ALPHA 测试，将被移除)[/b][/color] 在你以新玩家身份体验过初始库存槽位上限（100）之后再购买此项。这只是 Alpha 阶段的购买项，未来会被移除，改为重做的库存槽位购买方式。重做后的购买方式需要更多游戏内容才能加入。
+{Value:+0.##%;-#.##%} Currency reward quantity from Slayer Tasks	{Value:+0.##%;-#.##%} 悬赏任务的货币奖励数量
+{Value:+0.##%;-#.##%} cost to block Slayer Tasks	{Value:+0.##%;-#.##%} 屏蔽悬赏任务的费用
+{Value:+0.##%;-#.##%} cost to extend Slayer Tasks	{Value:+0.##%;-#.##%} 延长悬赏任务的费用
+{Value:+0.##%;-#.##%} cost to reroll Slayer Tasks	{Value:+0.##%;-#.##%} 重掷悬赏任务的费用
+{Value:+0.##%;-#.##%} {LocalContext.Area.DisplayName} Slayer Area effect magnitude	{Value:+0.##%;-#.##%} {LocalContext.Area.DisplayName}悬赏区域效果强度
+{Value:+0.##%;-#.##%} {LocalContext.Currency.DisplayName} quantity from Slayer Tasks	{Value:+0.##%;-#.##%} 悬赏任务的{LocalContext.Currency.DisplayName}数量
+{Value:+0;-#} Bank Space	{Value:+0;-#} 库存空间
+The constellation claims every Slayer task looks reasonable until you actually arrive.	星座宣称：每个悬赏任务看起来都还算合理，直到你真的到场。
+The stars wonder if Slayer Masters secretly compete to invent increasingly inconvenient tasks.	群星怀疑：悬赏大师们是否暗中较劲，比谁想出的任务更麻烦。
+The stars reveal that every experienced slayer has confidently attacked the wrong monster at least once.	群星揭示：每个老练的悬赏者，都至少自信满满地打错过一次怪物。
+[color=green]This observation grants you with access to the Moonscarred Crater Slayer Zone.[/color]	[color=green]这次观测为你解锁月痕陨坑悬赏区域。[/color]
+SC	悬赏币

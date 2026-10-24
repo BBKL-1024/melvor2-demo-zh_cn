@@ -1,0 +1,17 @@
+﻿# v35：Slayer Master 分两层
+#
+# 实体（一个发单的 NPC）叫「讨伐官」：「官」在中文里就是"负责某件事的人"，
+# 不像「大师」带等级感和敬称。
+#
+# 但入口按钮不必直译。原文 Slayer Masters 是"那些发单的人"，中文按钮该说的是
+# "点这里能干什么"，所以走「讨伐委托」——点进去正好是一张张待接的委托。
+# （彩蛋那句 "The stars wonder if Slayer Masters secretly compete…" 是独立 msgid，
+#   里面的字照旧用「讨伐官们」，不受按钮影响。）
+#
+# 执行顺序：先定 Slayer Masters / Slayer Masters & Tasks 两条，
+# 再用 swap 把余下的「讨伐大师」统一成「讨伐官」，避免把按钮也带进去。
+
+Slayer Masters	讨伐委托
+Slayer Masters & Tasks	讨伐官与任务
+
+Slayer Master	讨伐大师	讨伐官

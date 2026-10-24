@@ -1,0 +1,24 @@
+﻿# v33：命中的两组触发器去歧义
+#
+# 游戏里有两组镜像的触发器（源码 EffectTriggers/）：
+#
+#   OnAttackCombatEffectTrigger   "Triggers when a character attacks"   → 我是攻击方
+#     On Attack: / On Hit: / On Miss: / On First Hit of a Turn: ...
+#
+#   WhenAttackedCombatEffectTrigger "Triggers when a character is attacked" → 我是被打的
+#     When Attacked: / When Hit: / When First Hit: / When Attack Evaded: ...
+#
+# 所以 On Hit 是「我的攻击打中了」，When Hit 才是「我被打中了」。可原来 On Hit 只写
+# 「命中时」，玩家很容易读成后者——尤其效果挂在怪物身上时，看到「命中时」根本分不清
+# 是谁命中谁。加「攻击」两字把主语钉死，与 When 组的「被」形成对照。
+#
+# 另外 `When First Hit:` 原来译「首次命中时」，少了「被」字，和 On 组混成一样了，
+# 属于真错误，一并修。
+
+On Hit:	攻击命中时：
+On First Hit of a Turn:	一回合首次攻击命中时：
+On Miss:	攻击未命中时：
+On First Miss of a Turn:	一回合首次攻击未命中时：
+On-Hit	攻击命中时
+Pre-Hit	攻击命中前
+When First Hit:	首次被命中时：

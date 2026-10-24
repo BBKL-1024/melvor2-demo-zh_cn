@@ -1,0 +1,2 @@
+{Value:+0.##%;-#.##%} maximum hit	{Value:+0.##%;-#.##%} 最大伤害
+{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} maximum hit	{Value:0%} {Value:cond:<0?降低|>=0?提高} 最大伤害

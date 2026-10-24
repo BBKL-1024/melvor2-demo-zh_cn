@@ -1,0 +1,115 @@
+﻿# v14 -- 一批命名与译法修订（用户逐条指定）
+#
+# ---------------------------------------------------------------- 1. 悬赏大师人名
+# Fells 的 gettext 上下文是 MelvorBase:SlayerMasterStatistic.DisplayName，
+# 它是悬赏大师的名字，不是地形。同族 Allevia=阿莱维亚 / Feriken=费里肯 / Hans=汉斯，
+# 按同一音译风格补成「费尔斯」。
+Fells	费尔斯
+#
+# ---------------------------------------------------------------- 2. 四元素法术补「术」
+# 两字太短，读起来像普通攻击。统一成 元素 + 击/弹/爆 + 术，全部三字。
+Air Strike	风击术
+Water Strike	水击术
+Earth Strike	土击术
+Fire Strike	火击术
+Air Bolt	风弹术
+Water Bolt	水弹术
+Earth Bolt	土弹术
+Fire Bolt	火弹术
+Air Blast	风爆术
+Water Blast	水爆术
+Earth Blast	土爆术
+Fire Blast	火爆术
+#
+# ---------------------------------------------------------------- 3. 树名去「木」
+# Oak Tree=橡树 是对的，其余却被译成「柳木树 / 枫木树」，中文不这么说。
+# 规则：树名用「X树」，木材名才用「X木」（柳木原木 / 枫木弓保持原样）。
+Willow Tree	柳树
+Maple Tree	枫树
+Teak Tree	柚木
+Mahogany Tree	红木
+Redwood Tree	红杉
+Normal Tree	普通树
+Hard Oak Tree	硬橡树
+#
+# 种子跟着树名走。
+Oak Tree Seed	橡树种子
+Oak Tree Seeds	橡树种子
+Willow Tree Seed	柳树种子
+Willow Tree Seeds	柳树种子
+Maple Tree Seed	枫树种子
+Maple Tree Seeds	枫树种子
+Teak Tree Seed	柚木种子
+Teak Tree Seeds	柚木种子
+Mahogany Tree Seed	红木种子
+Mahogany Tree Seeds	红木种子
+#
+# ---------------------------------------------------------------- 4. 称号前置
+# 中文的「称号 + 名字」顺序，与英文的「名字, the 称号」相反。
+# 统一为「称号·名字」，用间隔号分开，避免长串连读。
+Eraxi, the Blighted Scar	枯萎伤痕·埃拉克西
+Ghelbak, the Hob Chief	哥布林酋长·盖尔巴克
+Kraken, the Drowned Overlord	沉没霸主·海妖
+Kythiss, the Venom Queen	剧毒女王·凯西斯
+Magmor, the Molten Behemoth	熔岩巨兽·马格莫尔
+Mesmeris, the Slumbering Princess	沉睡公主·梅斯梅里斯
+Morgis, the Grave Corruptor	墓穴腐化者·莫吉斯
+Qazarak, the Shiftsand Guardian	流沙守护者·卡扎拉克
+Sanguis, the Crimson Arcanist	赤红秘法师·桑吉斯
+Zuraxa, the Brood Mother	巢母·祖拉克萨
+#
+# ---------------------------------------------------------------- 5. 零散用词
+# 「逃离」带临阵脱逃的贬义，这里只是退出战斗。
+Run from Combat	离开战斗
+#
+# Attack 是近战技能实体（AttackEntity，带经验/宠物/精通组件），
+# 与 Ranged=远程、Magic=魔法 并列，译「攻击」范围过宽。
+Attack	近战
+#
+# 原文是「把矿物击碎后能拿到什么」，不是休息期间。
+# 同一数据包里已经有 Breaking a rock grants its rewards. = 击碎岩石即可获得其奖励。
+On Break Rewards	击碎奖励
+#
+# 「公会」会让人以为要加入某个组织；它其实是挂在每个技能上的精通进度体系。
+Mastery Guild	精通殿堂
+Mastery Guilds	精通殿堂
+Mastery Guild Rank Up!	精通殿堂等级提升！
+Mastery Guild Rank Up	精通殿堂等级提升
+Mastery Guild Tasks	精通殿堂任务
+Mastery Guild Task Complete	精通殿堂任务完成
+Mastery Guild Task Progress	精通殿堂任务进度
+Mastery Guild Unlocks	精通殿堂解锁
+Woodcutting Mastery Guild	伐木精通殿堂
+{0} Mastery Guild	{0} 精通殿堂
+Combat & Skilling\nMastery Guilds	战斗与技能\n精通殿堂
+Mastery Guild Rank Up Native Notification	精通殿堂等级提升系统通知
+Mastery Guild Task Complete Native Notification	精通殿堂任务完成系统通知
+Mastery Guild Task Progressed Notifications	精通殿堂任务进度通知
+#
+# ---------------------------------------------------------------- 6. 装备名
+# Mallet 是木工锤具，但中文装备名里「木槌」偏器具，「锤」才是武器/工具的通用叫法。
+# 一条 Wildebeast Mallet 原本单独译作「重锤」，一并归到同一结构。
+Wildebeast Mallet	荒野兽锤
+#
+# Defender 是刺剑样式的副手，译「防御者」像是人而不是装备，
+# 按「材质 + 器物」的装备命名习惯取「护剑」。
+#
+# ---------------------------------------------------------------- 7. 第五元素
+# Neutral 与 Air/Water/Earth/Fire 并列，是「不偏向任何元素」的那一支，
+# 「中立」读起来像立场而非属性。
+Neutral	无属性
+Neutral has no effect.	无属性无效果。
+Neutral Wizard Gear	无属性巫师装备
+#
+# ---------------------------------------------------------------- 8. 黄玉 → 黄宝石
+# 蓝宝石 / 红宝石 都是三字，只有黄玉两字，三种宝石并排时对不齐。
+# Topazwing 已经在用「蓝宝翼」式的短写法，先单独修，避免被下面的替换波及。
+Topazwing Yellowtail	黄宝翼黄尾鱼
+#
+# ================================================================ 以下为批量替换
+# 锤：所有材质 + Mallet
+Mallet	木槌	锤
+# 护剑：所有材质 + Defender
+Defender	防御者	护剑
+# 黄宝石：所有含 Topaz 的条目
+Topaz	黄玉	黄宝石

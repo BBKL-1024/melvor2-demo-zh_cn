@@ -1,0 +1,10 @@
+﻿# 相邻同音修订 第二批（v23）
+#
+# v22 之后重扫剩下的三条，都还能再顺一下：
+#   "未喂食的动物"  未(wèi) 喂(wèi) 仍然撞，改「待喂食」
+#   "流星雨与星陨"  雨(yǔ) 与(yǔ) 撞，改「和」
+#   "命中任意岩石时"  石(shí) 时(shí) 撞，把「时」换成「后」，语义不变
+
+Animals Not Fed	待喂食的动物
+Unlocks the ability to observe [color=#FFD16D]Meteor Shower[/color] and [color=#FFD16D]Starfall[/color] events in Firemaking	在生火中解锁观测[color=#FFD16D]流星雨[/color]和[color=#FFD16D]星陨[/color]事件的能力
+{Value:+0.##%;-#.##%} chance to gain Rune Essence or Pure Essence when hitting any Rock in {LocalContext.Component.Entity.DisplayName}	{Value:+0.##%;-#.##%} 在{LocalContext.Component.Entity.DisplayName}中命中任意岩石后获得符文精华或纯精华的几率

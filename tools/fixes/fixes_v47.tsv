@@ -1,0 +1,13 @@
+# v47：祈祷名里两组重名 + 一处词义偏差
+#
+# 重名 1：Evade 和 Elusion 都译「闪避」，但一个是 FlatCombatStatValue（战斗属性），
+#         一个是 FlatProtectionRating（防护评级），两个不同的祈祷。
+#         Evade 保留「闪避」，Elusion 改「规避」（elude=规避）。
+# 重名 2：Swiftness 也译「迅捷」，和上一轮刚改的 Evasive=迅捷 撞。
+#         Evasive 是 PercentAttackInterval（攻速），Swiftness 是 FlatProtectionRating。
+#         Evasive 保留「迅捷」，Swiftness 改「疾速」。
+# 词义：Defiance 是"反抗/挑战"，「蔑视」是 despise 的意思。
+
+Elusion	规避
+Swiftness	疾速
+Defiance	反抗

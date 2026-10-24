@@ -1,0 +1,32 @@
+﻿# v10 -- the contradictions the two audits could only see at the family level.
+#
+# Two mechanics had drifted apart from their own sibling strings:
+#   * Trapping Interval was 陷阱间隔 in the bare entry and 设陷间隔 once wrapped
+#     in a context sentence. "设陷" is an action, an *interval* cannot be an action.
+#   * Rock Break is 击碎 everywhere (击碎条 / 击碎几率 / 每次击碎) except in the
+#     four long "{Value} ... in {Context}" descriptors, which said 破碎 -- which
+#     collides with Shatter, a different proc that really is 碎裂.
+#
+# Plus one lost line break (S4) and one CJK-CJK space (S6).
+#
+# ORDER MATTERS: swaps run top to bottom, so the Rock Break repairs must precede
+# the generic Shatter one -- otherwise "岩石破碎时触发碎裂" (rock breaks, trigger
+# Shatter) loses its first 破碎 to the Shatter rule and becomes 岩石碎裂时触发碎裂.
+
+# --- Rock Break: unify on 击碎 (must run before the Shatter rule) -------------
+chance for a rock to Shatter	岩石破碎	岩石击碎
+Rock Break	岩石破碎	岩石击碎
+
+# --- Trapping: one word, one rendering ---------------------------------------
+Trapping Interval	设陷间隔	陷阱间隔
+
+# --- Shatter: a different proc, so 碎裂 --------------------------------------
+Shatter	破碎	碎裂
+
+# --- exact rewrites ----------------------------------------------------------
+Each hit has a chance to break the rock. If the Rock Break Bar reaches 100%, the rock automatically breaks.	每次击打都有几率击碎岩石。若击碎条达到 100%，岩石会被自动击碎。
+Some rocks also provide rewards with every hit, even before they break.	有些岩石在被击碎前，每次击打也会给予奖励。
+Burn Logs	燃烧原木
+Recipes Burnt	已燃烧配方
+Welcome to Melvor Idle 2	欢迎来到梅尔沃放置2
+The final adjustment to your product quantity based on\nPests & Disease Maintenance.\nOnly applied when product is [b]fully grown[/b], after all other bonuses.	基于害虫与疾病维护，\n对产物数量的最终调整。\n仅在产物[b]完全成长[/b]后，于其他所有加成之后应用。

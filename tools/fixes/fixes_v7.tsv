@@ -1,0 +1,10 @@
+﻿# 第二批：两个不同 ID 的实体撞名，背包 / 列表里无法区分。
+#
+# CrushedBigBone 与 CrushedLargeBone 是两个独立物品，同属 CrushedBones 类别
+Crushed Large Bone	碎巨骨
+#
+# GlowingSquid 与 Glowsquid 是两个独立实体
+Glowing Squid	发光鱿鱼
+#
+# LongRange 是攻击距离类型，Ranged 才是远程武器类别
+Long-Range	远距离

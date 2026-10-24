@@ -1,0 +1,14 @@
+﻿# v12 -- the two real misses left inside the P2 drift list.
+#
+# Everything else P2 flagged was the glossary being narrower than the corpus
+# (暴击 for Critical Hit, 酸蚀 for Acid Burn, 农贸 for Farmers Market ...), so the
+# glossary was widened instead of the text being bent to it. These two are not
+# vocabulary variants, they are the same word rendered two ways:
+#
+#   Logs  -> 已燃烧的原木 / 原木 scattered everywhere, but "Add Logs to Bonfire"
+#            said 木柴. 木柴 is firewood, a different item.
+#   growing -> the status label had just been unified to 生长中, while this
+#            sentence still used the 成长 root.
+
+Add Logs to Bonfire	添加原木到篝火
+Lasts [b]{0:numbertime(ms)}[/b] after growing.	生长后可持续 [b]{0:numbertime(ms)}[/b]。

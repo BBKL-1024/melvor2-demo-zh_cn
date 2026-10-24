@@ -1,0 +1,9 @@
+﻿# v31：三处收尾
+#
+# 1 `Quests` 是侧边栏/列表的标签，用两字「剧情」，具体一条才叫「剧情任务」
+# 2 `Evasive` 的字段是 PercentAttackInterval（攻击间隔），不是闪避
+# 3 「更多任务类型」里的 Task types 是泛指（含宠物/稀有物品），不该变成「剧情任务类型」
+
+Quests	剧情
+Evasive	迅捷
+[b]More Task types coming soon:[/b]\n[ul] Locate/obtain Pets\n Complete Quests\n Find rare/hidden items[/ul]	[b]更多任务类型即将推出：[/b]\n[ul] 寻找/获得宠物\n 完成剧情任务\n 寻找稀有/隐藏物品[/ul]

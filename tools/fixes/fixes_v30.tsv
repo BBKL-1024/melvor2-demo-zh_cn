@@ -1,0 +1,24 @@
+﻿# v30：Slayer → 讨伐，Quest → 剧情任务
+#
+# Slayer 系整体换词，与 Quest 彻底分开：
+#   Slayer → 讨伐 / Slayer Task → 讨伐任务 / Slayer Master → 讨伐大师
+#   Slayer Coins → 讨伐币 / Slayer Zone → 讨伐区域
+# 只有 `SC`（Slayer Coins 缩写）不含 "Slayer" 字样，单独列。
+#
+# Quest 系加「剧情」二字，短标签 `Quests` 用「剧情」：
+#   Quests → 剧情（侧边栏/列表标题，放得下）
+#   Quest → 剧情任务（具体一条）
+#   长文本里的「任务」一并改「剧情任务」，但已含「剧情」的跳过，避免叠成「剧情剧情任务」
+#
+# `Evasive` 的字段是 PercentAttackInterval，跟闪避无关，改「迅捷」。
+#
+# 不动的：Mastery Guild Task=精通殿堂任务、Onboarding Tasks=新手任务、
+# Task Categories=任务分类——这些 Task 不是悬赏也不是剧情。
+
+SC	讨伐币
+Quests	剧情
+Evasive	迅捷
+
+Slayer	悬赏	讨伐
+slayer	悬赏	讨伐
+Quest	任务	剧情任务
