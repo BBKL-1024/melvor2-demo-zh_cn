@@ -2,6 +2,8 @@
 
 为 [Melvor Idle 2 试用版](https://store.steampowered.com/app/3218350/Melvor_Idle_2/) 提供简体中文界面。安装后游戏目录只多出一个 `override.cfg` 和一个 `mod/` 文件夹，游戏的任何原有文件都不改动。
 
+**[⬇ 下载最新版本](https://github.com/BBKL-1024/melvor2-demo-zh_cn/releases/latest)** — 解压到游戏根目录即可
+
 ## 做了什么
 
 - 汉化约 8180 条文本，覆盖技能、物品、怪物、战斗、剧情、设置与全部界面
